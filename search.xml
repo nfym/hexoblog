@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[location]]></title>
+    <url>%2Fcss%E5%AE%9A%E4%BD%8D%2F2018%2F09%2F23%2Flocation%2F</url>
+    <content type="text"><![CDATA[优秀的人，不是不合群，而是他们合群的人里没有你 codejs隐藏与显示回到顶部按钮12345678window.onscroll = function () &#123; if (document.documentElement.scrollTop + document.body.scrollTop &gt; 100) &#123; document.getElementById(&quot;scrollto&quot;).style.display = &quot;block&quot;; &#125; else &#123; document.getElementById(&quot;scrollto&quot;).style.display = &quot;none&quot;; &#125; &#125;]]></content>
+      <categories>
+        <category>css定位</category>
+      </categories>
+      <tags>
+        <tag>css</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[css选择器]]></title>
     <url>%2Funcategorized%2F2018%2F09%2F23%2Fselector%2F</url>
     <content type="text"><![CDATA[CSS选择器1.css元素选择器2.选择器分组3.ID选择器4.类选择器5.属性选择器6.后代选择器7.子元素选择器8.相邻兄弟选择器9.派生选择器10.nth-child（IE不支持）11.nth-of-type12.*通用选择器10.nth-child(n) :nth-child(n) 选择器匹配属于其父元素的第 N 个子元素，不论元素的类型，如： 1234&lt;div&gt; &lt;span&gt;2018/08 第五周&lt;/span&gt;&lt;br/&gt; &lt;span&gt;8-24~8-30&lt;/span&gt;&lt;/div&gt; 如果1234div span：nth-child(2)&#123;&#125; 那么匹配的是span的父元素（div）的第二个子元素br,而不是第二个span！从左往右很容易误解成div的第二个sapn子元素，这是错误的哦，(nth-of-type)才是这样 ！注意：！nth-child（）选择器下标是从1开始，而不是像数组之类的从0开始；！选择器下标计算包括所有子元素，不要只计算：前自己指定的元素的个数 上面例子的下标就是1（span），2（br），3（span） 11. nth-of-type(n) :nth-of-type(n) 选择器匹配属于其父元素的特定类型的第 N 个子元素. 跟上面相同的代码1234div span：nth-child(2)&#123;&#125; 匹配的是div的第二个span子元素 Odd 和 even 是可用于匹配下标是奇数或偶数的子元素的关键词12345678p:nth-of-type(odd)&#123;background:#ff0000;&#125;p:nth-of-type(even)&#123;background:#0000ff;&#125;]]></content>
