@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://weixiaorensheng.github.io/"/>
-  <updated>2018-10-03T03:18:41.296Z</updated>
+  <updated>2018-10-03T04:26:04.274Z</updated>
   <id>https://weixiaorensheng.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://weixiaorensheng.github.io/css%E5%AE%9A%E4%BD%8D/2018/09/23/location/"/>
     <id>https://weixiaorensheng.github.io/css定位/2018/09/23/location/</id>
     <published>2018-09-23T14:29:26.000Z</published>
-    <updated>2018-10-03T03:18:41.296Z</updated>
+    <updated>2018-10-03T04:26:04.274Z</updated>
     
     <content type="html"><![CDATA[<blockquote class="blockquote-center">优秀的人，不是不合群，而是他们合群的人里没有你<br></blockquote><a id="more"></a><p><code class="language-html">code</code><br>js隐藏与显示回到顶部按钮<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">window.onscroll = function () &#123;   </span><br><span class="line">   if (document.documentElement.scrollTop + document.body.scrollTop &gt; 100) &#123;</span><br><span class="line">          document.getElementById(&quot;scrollto&quot;).style.display = &quot;block&quot;;    </span><br><span class="line">   &#125;     </span><br><span class="line">   else &#123;      </span><br><span class="line">    document.getElementById(&quot;scrollto&quot;).style.display = &quot;none&quot;;    </span><br><span class="line">   &#125; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>]]></content>
     
@@ -107,39 +107,23 @@
   
   <entry>
     <title>css常用命名</title>
-    <link href="https://weixiaorensheng.github.io/uncategorized/2018/09/10/name/"/>
-    <id>https://weixiaorensheng.github.io/uncategorized/2018/09/10/name/</id>
+    <link href="https://weixiaorensheng.github.io/class%E5%91%BD%E5%90%8D/2018/09/10/name/"/>
+    <id>https://weixiaorensheng.github.io/class命名/2018/09/10/name/</id>
     <published>2018-09-10T08:00:26.000Z</published>
-    <updated>2018-10-02T03:21:48.766Z</updated>
+    <updated>2018-10-03T05:10:48.472Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>class常用命名</p></blockquote><pre><code>页头:header登录条:loginBar标志:logo侧栏:sideBar广告:banner导航:nav子导航:subNav菜单:menu子菜单:subMenu搜索:search滚动:scroll页面主体:main内容:content标签页:tab文章列表:list提示信息:msg小技巧:tips栏目标题:title友情链接:friendLink页脚:footer加入:joinus指南:guild服务:service热点:hot新闻:news下载:download注册:regsiter状态:status按钮:btn投票:vote合作伙伴:partner版权:copyRightCSSID的命名外套:wrap主导航:mainNav子导航:subnav页脚:footer整个页面:content页眉:header页脚:footer商标:label标题:title主导航:mainNav(globalNav)顶导航:topnav边导航:sidebar左导航:leftsideBar右导航:rightsideBar旗志:logo标语:banner菜单内容1:menu1Content菜单容量:menuContainer子菜单:submenu边导航图标:sidebarIcon注释:note面包屑:breadCrumb(即页面所处位置导航提示)容器:container内容:content搜索:search登陆:login功能区:shop(如购物车，收银台)当前的current样式文件命名主要的:master.css布局版面:layout.css专栏:columns.css文字:font.css打印样式:print.css主题:themes.css</code></pre>]]></content>
+    <content type="html"><![CDATA[<p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="http://music.163.com/outchain/player?type=2&id=32192436&auto=1&height=32"></iframe><br>//其中的width=298 height=52 均改为0就看不到了，依然可以播放音乐</p><blockquote><p>class常用命名</p></blockquote><p>页头:header</p><p>登录条:loginBar</p><p>标志:logo</p><p>侧栏:sideBar</p><p>广告:banner</p><p>导航:nav</p><p>子导航:subNav</p><p>菜单:menu</p><p>子菜单:subMenu</p><p>搜索:search</p><p>滚动:scroll</p><p>页面主体:main</p><p>内容:content</p><p>标签页:tab</p><p>文章列表:list</p><p>提示信息:msg</p><p>小技巧:tips</p><p>栏目标题:title</p><p>友情链接:friendLink</p><p>页脚:footer</p><p>加入:joinus</p><p>指南:guild</p><p>服务:service</p><p>热点:hot</p><p>新闻:news</p><p>下载:download</p><p>注册:regsiter</p><p>状态:status</p><p>按钮:btn</p><p>投票:vote</p><p>合作伙伴:partner</p><p>版权:copyRight</p><p>CSSID的命名</p><p>外套:wrap</p><p>主导航:mainNav</p><p>子导航:subnav</p><p>页脚:footer</p><p>整个页面:content</p><p>页眉:header</p><p>页脚:footer</p><p>商标:label</p><p>标题:title</p><p>主导航:mainNav(globalNav)</p><p>顶导航:topnav</p><p>边导航:sidebar</p><p>左导航:leftsideBar</p><p>右导航:rightsideBar</p><p>旗志:logo</p><p>标语:banner</p><p>菜单内容1:menu1Content</p><p>菜单容量:menuContainer</p><p>子菜单:submenu</p><p>边导航图标:sidebarIcon</p><p>注释:note</p><p>面包屑:breadCrumb(即页面所处位置导航提示)</p><p>容器:container</p><p>内容:content</p><p>搜索:search</p><p>登陆:login</p><p>功能区:shop(如购物车，收银台)</p><p>当前的current</p><p>样式文件命名</p><p>主要的:master.css</p><p>布局版面:layout.css</p><p>专栏:columns.css</p><p>文字:font.css</p><p>打印样式:print.css</p><p>主题:themes.css</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;blockquote&gt;
-&lt;p&gt;class常用命名&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;pre&gt;&lt;code&gt;页头:header
-
-登录条:loginBar
-
-标志:logo
-
-侧栏:sideBar
-
-广告:banner
-
-导航:nav
-
-子导航:subNav
-
-菜单:menu
-
+        &lt;p&gt;&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;298&quot; height=&quot;52&quot; src=&quot;http://music.163.com/outchain/player?ty
       
     
     </summary>
+    
+      <category term="class命名" scheme="https://weixiaorensheng.github.io/categories/class%E5%91%BD%E5%90%8D/"/>
     
     
       <category term="css" scheme="https://weixiaorensheng.github.io/tags/css/"/>
