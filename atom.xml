@@ -6,15 +6,33 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://weixiaorensheng.github.io/"/>
-  <updated>2018-09-23T11:36:18.407Z</updated>
+  <updated>2018-10-02T03:43:36.981Z</updated>
   <id>https://weixiaorensheng.github.io/</id>
   
   <author>
-    <name>XiNian</name>
+    <name>HHN</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>location</title>
+    <link href="https://weixiaorensheng.github.io/uncategorized/2018/09/23/location/"/>
+    <id>https://weixiaorensheng.github.io/uncategorized/2018/09/23/location/</id>
+    <published>2018-09-23T14:29:26.000Z</published>
+    <updated>2018-10-02T03:43:36.981Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote class="blockquote-center">优秀的人，不是不合群，而是他们合群的人里没有你<br></blockquote><a id="more"></a><p><code class="language-html">code</code><br>js隐藏与显示回到顶部按钮<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">window.onscroll = function () &#123;   </span><br><span class="line">   if (document.documentElement.scrollTop + document.body.scrollTop &gt; 100) &#123;</span><br><span class="line">          document.getElementById(&quot;scrollto&quot;).style.display = &quot;block&quot;;    </span><br><span class="line">   &#125;     </span><br><span class="line">   else &#123;      </span><br><span class="line">    document.getElementById(&quot;scrollto&quot;).style.display = &quot;none&quot;;    </span><br><span class="line">   &#125; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;优秀的人，不是不合群，而是他们合群的人里没有你&lt;br&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>css选择器</title>
