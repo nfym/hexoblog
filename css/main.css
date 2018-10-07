@@ -2021,7 +2021,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #86584a;
+  background: #ba953e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3178,11 +3178,23 @@ p.site-author-name {
 .sidebar a:hover {
   color: #fff;
 }
+#count-box {
+  background: #fff;
+  height: 80px;
+  box-sizing: border-box;
+}
+#count-box p {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 70px;
+  color: #0c3b47;
+}
 #days {
-  display: block;
-  color: #ffcb57;
-  font-size: 13px;
-  margin-top: 15px;
+  color: #999;
+}
+#days span {
+  font-size: 28px;
+  color: #555;
 }
 .post-toc ol a {
   color: #07b39b;
