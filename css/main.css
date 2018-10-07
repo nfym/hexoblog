@@ -2175,7 +2175,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #7f6e1b;
+  background: #91ffd0;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3672,6 +3672,9 @@ p.site-author-name {
   .menu .menu-item {
     margin: 0px 10px !important;
   }
+}
+img.img-topic {
+  width: 100%;
 }
 blockquote {
   padding: 0 15px;
