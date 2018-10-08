@@ -343,10 +343,10 @@
         
           <div class="category-all-page">
             <div class="category-all-title">
-                目前共计 3 个分类
+                目前共计 4 个分类
             </div>
             <div class="category-all">
-              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/HTML/">HTML</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/class命名/">class命名</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/css定位/">css定位</a><span class="category-list-count">1</span></li></ul>
+              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/HTML/">HTML</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/class命名/">class命名</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/css定位/">css定位</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/hexo-博客编写常用/">hexo 博客编写常用</a><span class="category-list-count">1</span></li></ul>
             </div>
           </div>
         
@@ -417,7 +417,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -428,7 +428,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -439,7 +439,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -510,7 +510,7 @@
 <script>
 function show_date_time(){
 window.setTimeout("show_date_time()", 1000);
-BirthDay=new Date("08/27/2018 15:13:14");
+BirthDay=new Date("10/01/2018 15:13:14");
 today=new Date();
 timeold=(today.getTime()-BirthDay.getTime());
 sectimeold=timeold/1000
@@ -1102,6 +1102,10 @@ show_date_time();
  <!-- 背景 -->
   <script>
 	$("body").backstretch("/images/bg.png");
+	$(".sidebar").backstretch("/images/bg.png","/images/bg.jpg");
   </script>
+  <!-- 代码块复制功能 -->
+  <script type="text/javascript" src="/js/src/clipboard.min.js"></script>  
+  <script type="text/javascript" src="/js/src/clipboard-use.js"></script>
  <script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"jsonPath":"live2d-widget-model-wanko"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false,"tagMode":false});</script></body>
 </html>

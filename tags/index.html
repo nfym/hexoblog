@@ -343,10 +343,10 @@
         
           <div class="tag-cloud">
             <div class="tag-cloud-title">
-                目前共计 2 个标签
+                目前共计 3 个标签
             </div>
             <div class="tag-cloud-tags">
-              <a href="/tags/css/" style="font-size: 30px; color: #111">css</a> <a href="/tags/html/" style="font-size: 12px; color: #ccc">html</a>
+              <a href="/tags/css/" style="font-size: 30px; color: #111">css</a> <a href="/tags/hexo-hexo文章/" style="font-size: 12px; color: #ccc">hexo  hexo文章</a> <a href="/tags/html/" style="font-size: 12px; color: #ccc">html</a>
             </div>
           </div>
         
@@ -417,7 +417,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -428,7 +428,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -439,7 +439,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -510,7 +510,7 @@
 <script>
 function show_date_time(){
 window.setTimeout("show_date_time()", 1000);
-BirthDay=new Date("08/27/2018 15:13:14");
+BirthDay=new Date("10/01/2018 15:13:14");
 today=new Date();
 timeold=(today.getTime()-BirthDay.getTime());
 sectimeold=timeold/1000
@@ -1102,6 +1102,10 @@ show_date_time();
  <!-- 背景 -->
   <script>
 	$("body").backstretch("/images/bg.png");
+	$(".sidebar").backstretch("/images/bg.png","/images/bg.jpg");
   </script>
+  <!-- 代码块复制功能 -->
+  <script type="text/javascript" src="/js/src/clipboard.min.js"></script>  
+  <script type="text/javascript" src="/js/src/clipboard-use.js"></script>
  <script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"jsonPath":"live2d-widget-model-wanko"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false,"tagMode":false});</script></body>
 </html>
