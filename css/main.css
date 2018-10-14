@@ -2175,7 +2175,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f9b579;
+  background: #63ffff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3056,9 +3056,12 @@ embed {
   width: 100%;
 }
 .brand {
-  background-color: rgba(255,255,255,0);
+  background-color: rgba(255,255,255,0.1);
   margin-top: 15px;
   padding: 0px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 3px #4c618f;
+  font-family: 'Comic Sans MS', sans-serif;
 }
 .site-title {
   padding: 10px;
@@ -3111,6 +3114,14 @@ embed {
 }
 .posts-expand .post-meta {
   margin: 10px 0px 20px 0px;
+}
+.post a {
+  text-decoration: none;
+  border-bottom: none;
+  color: #999;
+}
+.post a:hover {
+  color: #5073b8;
 }
 .posts-expand .post-meta .post-description {
   font-style: italic;
@@ -3745,6 +3756,9 @@ blockquote.default {
 }
 .highlight:hover .btn-copy {
   opacity: 1;
+}
+.busuanzi-count {
+  display: none;
 }
 @-moz-keyframes heartAnimate {
   0%, 100% {
