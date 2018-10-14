@@ -1,0 +1,1624 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+<style>
+    .pace .pace-progress {
+        background: #1E92FB; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+</style>
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/bitbug_favicons.ico?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/bitbug_favicons.ico?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/bitbug_favicons.ico?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/bitbug_favicons.ico?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="weixiaorensheng, NexT, hexo, 博客, html, css, javascript" />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="HHN" type="application/atom+xml" />
+
+
+
+
+
+
+<meta name="description" content="一、认识前端1.什么是前端   Web前端开发工程师是一个很新的职业，在国内乃至国际上真正开始受到重视的时间不超过10年。Web前端开发是从网页制作演变而来的，名称上有很明显的时代特征。在互联网的演化进程中，网页制作是Web 1.0时代的产物，那时网站的主要内容都是静态的，用户使用网站的行为也以浏览为主。  2005年以后，互联网进入Web 2.0时代，各种类似桌面软件的Web应用大量涌现，网站的">
+<meta property="og:type" content="article">
+<meta property="og:title" content="前端进阶之路">
+<meta property="og:url" content="https://weixiaorensheng.github.io/uncategorized/2018/09/11/progress/index.html">
+<meta property="og:site_name" content="HHN">
+<meta property="og:description" content="一、认识前端1.什么是前端   Web前端开发工程师是一个很新的职业，在国内乃至国际上真正开始受到重视的时间不超过10年。Web前端开发是从网页制作演变而来的，名称上有很明显的时代特征。在互联网的演化进程中，网页制作是Web 1.0时代的产物，那时网站的主要内容都是静态的，用户使用网站的行为也以浏览为主。  2005年以后，互联网进入Web 2.0时代，各种类似桌面软件的Web应用大量涌现，网站的">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://weixiaorensheng.github.io/uncategorized/2018/09/11/progress/loadimg/dff.jpg">
+<meta property="og:image" content="https://weixiaorensheng.github.io/uncategorized/2018/09/11/progress/loadimg/tree.jpg">
+<meta property="og:image" content="https://weixiaorensheng.github.io/uncategorized/2018/09/11/progress/loadimg/one.png">
+<meta property="og:image" content="https://weixiaorensheng.github.io/uncategorized/2018/09/11/progress/loadimg/two.png">
+<meta property="og:image" content="https://weixiaorensheng.github.io/uncategorized/2018/09/11/progress/loadimg/three.png">
+<meta property="og:image" content="https://weixiaorensheng.github.io/uncategorized/2018/09/11/progress/loadimg/four.png">
+<meta property="og:image" content="https://weixiaorensheng.github.io/uncategorized/2018/09/11/progress/loadimg/cssone.png">
+<meta property="og:image" content="https://weixiaorensheng.github.io/uncategorized/2018/09/11/progress/loadimg/csstwo.png">
+<meta property="og:image" content="https://weixiaorensheng.github.io/uncategorized/2018/09/11/progress/loadimg/cssthree.png">
+<meta property="og:image" content="https://weixiaorensheng.github.io/uncategorized/2018/09/11/progress/loadimg/cssfour.png">
+<meta property="og:updated_time" content="2018-10-07T13:23:32.080Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="前端进阶之路">
+<meta name="twitter:description" content="一、认识前端1.什么是前端   Web前端开发工程师是一个很新的职业，在国内乃至国际上真正开始受到重视的时间不超过10年。Web前端开发是从网页制作演变而来的，名称上有很明显的时代特征。在互联网的演化进程中，网页制作是Web 1.0时代的产物，那时网站的主要内容都是静态的，用户使用网站的行为也以浏览为主。  2005年以后，互联网进入Web 2.0时代，各种类似桌面软件的Web应用大量涌现，网站的">
+<meta name="twitter:image" content="https://weixiaorensheng.github.io/uncategorized/2018/09/11/progress/loadimg/dff.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"hide","offset":12,"b2t":false,"scrollpercent":false,"onmobile":true},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://weixiaorensheng.github.io/uncategorized/2018/09/11/progress/"/>
+
+
+
+
+
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/0f81ff2f.js","daovoice")
+  daovoice('init', {
+      app_id: "e8931672"
+    });
+  daovoice('update');
+  </script>
+
+  <title>前端进阶之路 | HHN</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+  
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">HHN</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">哪管他知识无穷无尽  进一寸有进一寸的欢喜</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-hot">
+          <a href="/hot/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-signal"></i> <br />
+            
+            热门
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://weixiaorensheng.github.io/uncategorized/2018/09/11/progress/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="HHN">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="HHN">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">前端进阶之路</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-11T19:59:42+08:00">
+                2018-09-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/uncategorized/2018/09/11/progress/" class="leancloud_visitors" data-flag-title="前端进阶之路">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">热度&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+				 <span>℃<span>
+             </span>
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
+            </span>
+          
+
+          
+           <div class="post-wordcount">
+             
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-edit"></i>
+               </span>
+                 
+                   <span class="post-meta-item-text">字数统计</span>
+                 
+                   <span title="字数统计" }}">
+                     6.7k 字  ##我在这里加了一个单位上去
+                   </span>
+             
+             
+               <span class="post-meta-divider">|</span>
+             
+             
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-clock-o"></i>
+               </span>
+                 
+                   <span class="post-meta-item-text">阅读时长</span>
+                 
+                   <span title="阅读时长" }}">
+                     23 分钟   ##我在这里加了一个单位上去
+                   </span>
+             
+           </div>
+         
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="一、认识前端"><a href="#一、认识前端" class="headerlink" title="一、认识前端"></a>一、认识前端</h1><h2 id="1-什么是前端"><a href="#1-什么是前端" class="headerlink" title="1.什么是前端"></a>1.什么是前端</h2><blockquote>
+<p>  Web前端开发工程师是一个很新的职业，在国内乃至国际上真正开始受到重视的时间不超过10年。Web前端开发是从网页制作演变而来的，名称上有很明显的时代特征。在互联网的演化进程中，网页制作是Web 1.0时代的产物，那时网站的主要内容都是静态的，用户使用网站的行为也以浏览为主。<br>  2005年以后，互联网进入Web 2.0时代，各种类似桌面软件的Web应用大量涌现，网站的前端由此发生了翻天覆地的变化。网页不再只是承载单一的文字和图片，各种丰富媒体让网页的内容更加生动，网页上软件化的交互形式为用户提供了更好的使用体验，这些都是基于前端技术实现的。<br>  随着WEB2.0概念的普及和W3C组织的推广，网站重构的影响力正以惊人的速度增长。</p>
+</blockquote>
+<blockquote>
+<p> 其实中国的“web前端开发攻城狮”这个职位好多人并不知道是怎么叫出来的，那么我偷偷 &lt;(￣︶￣)&gt;告诉你：其实是淘宝团队，发明出来的本土化的名称，因为历史原因，淘宝在2005以后迅速崛起，并且爆发式的访问量，让淘宝网的用户体验受到巨大考验和急需前进。<br>然后淘宝官方第一次有了【 web前端开发 】这个字眼和招聘职位，或许其他网站也想到了这样一种描述，但是毕竟知名度巨高的淘宝，受关注度自然高，口碑相传，就把【前端开发】这个叫法发扬光大了。<br>在早期点Web前端不叫前端，而是被亲切的叫做“网页设计师”，没错你没看错，就是这个名字，我记得那时候 【网页三剑客】的说法满天飞，你掌握了这3贱客，真的很贱，就可以被人叫做网页设计师了。</p>
+</blockquote>
+<h3 id="网页三剑客：DW-FW-Falsh"><a href="#网页三剑客：DW-FW-Falsh" class="headerlink" title="网页三剑客：DW\FW\Falsh"></a>网页三剑客：DW\FW\Falsh</h3><p><img src="loadimg/dff.jpg" alt="three"></p>
+<blockquote>
+<p>网页三剑客（Flash、Dreamweaver、Firewoks) 并称为Macromedia的网页制作三剑客，由于是同一公司的产品，因而在功能上有着一个非常紧密的结合 。后来Firewoks被Adobe这个变态的巨头收购以后，ps就基本取代Firewoks来做设计网页的工作了，虽然我知道现在还有人用，估计是一种怀念和某些好用的切图功能吧。<br>而那时候的网页设计师 如果要入此道，必须要掌握的就是Dreamweaver，并不是说只有他能写html 和 css ，而是它在当时的自动提示实在太好用、太强大了，简直不用费脑细胞，你就可以轻轻松松的完成你所想。在当时前端工具和编辑器贫乏的时代，这个绝对是神奇级别了（当然后来 写的多了都熟悉基本不用提示的）。当年还有很多基于Dreamweaver构建网站的教程，那时候真的是个基情满满的年代，这些工具类的历史产物，有兴趣的朋友可以去了解一下就好了，我们不在多舌。</p>
+</blockquote>
+<h2 id="2-web前端开发入门，需要掌握哪些基础"><a href="#2-web前端开发入门，需要掌握哪些基础" class="headerlink" title="2.web前端开发入门，需要掌握哪些基础"></a>2.web前端开发入门，需要掌握哪些基础</h2><blockquote>
+<p>虽说这个问题很大，但是这个话题就很好回答了；因为现在前端如此眼花缭乱，技能多多，都是基于此三板斧：<br>HTML、CSS、JavaScript</p>
+</blockquote>
+<blockquote>
+<p>HTML： 是构成网页展示的基础，是一种很简单可视化的标识语言，说白了就是 一是一，你写二就出二。网上所有的网页网站，不管多么牛鼻最后都会转化成html，被浏览器渲染出来，用作展示。<br>CSS： 又称作样式表，简单点说就是html的外衣，将html包装的明艳动人。<br>JavaScript：是一种直译式脚本语言，非常灵活，可以在任何浏览器上开发与调试的一种动态类型、弱类型、基于原型的语言。<br>（关于js这个让人又爱又恨的语言，我们到后面会着重介绍和学习，因为掌握此技能， 你就拥有了全世界，说全世界是扯淡的，说白了拥有了 money和妹子）</p>
+</blockquote>
+<h2 id="3-web前端开发-”到底有前途吗？"><a href="#3-web前端开发-”到底有前途吗？" class="headerlink" title="3. web前端开发 ”到底有前途吗？"></a>3. web前端开发 ”到底有前途吗？</h2><p>如果你在2012年以前 这么问，或许很多人会思考一下，给你说不知道，应该没后端编程有前途吧，或者直接说，web前端有啥啊？不就写个网页、js吗？工资又低。。。。</p>
+<p>随着html5的普罗天下，css3的风靡全球，随着nodejs 的崛起，JavaScript这个最容易被人误解的语言，终于散发了它本该有的光芒</p>
+<blockquote>
+<p>由于现在是web应用时代，各种尺寸的电子设备，增长式的爆发，只要和屏幕有关的 就是颜值，颜值代表了一切，你说前端有前途吗？<br>html5、网页游戏风靡全球，需要页面展现的东西 都是前端范畴，你说有前途吗？</p>
+</blockquote>
+<h2 id="4-web前端的分类"><a href="#4-web前端的分类" class="headerlink" title="4.web前端的分类"></a>4.web前端的分类</h2><p>“ 入一行，要先知一行 ”；我们来看看web前端开发职位 无论什么门派都要做到的一些基本工作职责。</p>
+<p>首先，你必须是一个合格的“页面仔”，这个叫法不好听，但很生动；<br>我们都知道，所有呈现的内容都是基于HTML 网页的。<br>如果你的html、css（包括现在的HTML5+CSS3）基础不会，或者不够扎实，都很难在有大的进步，或者你的JS 很好，但布局基础不行，还是不能算合格的web前端。</p>
+<hr>
+<p>其次，前端主要负责实现视觉和交互功能，以及与后端服务器通信，完成业务逻辑。现在前端的核心价值在于对用户体验的极致追求。<br>那么我们靠什么来提升用户体验和人性化操作，让用户觉得体验牛x、舒服呢？（当然细分厉害的公司，会有专门的 用户体验攻城狮）<br>当然是我们自始自终的主角 JavaScript了，毕竟它最初就是为浏览器而生的脚本语言。</p>
+<hr>
+<p>然而，JS这门语言并不是一种强类型语言，更像是一种解释型语言，所以很多属性，在不同的浏览器环境解释有很大不同导致，效果和性能千差万别，而且很多属性之长，之多，之巨都很有工作量。</p>
+<hr>
+<p>之后，就出现了Jquery 这种的框架神器，由于其好用，简单，效果多样，兼容完美，高效率等特性，迅速席卷全世界，所以如果想入门，jquery 这个东西你是逃不掉的，而且利用它简单的语法，你会很快将一些效果实现出来，迅速提升兴趣。</p>
+<hr>
+<p>再后，既然涉及到视觉 和用户体验，那么UI 设计知识，你肯定要涉及或者懂一些设计方面的技能和基本素养，比如PS的一些基本操作，切图，和颜色值（比如会改个字，隐藏个图层，改个尺寸，变个颜色什么滴），屏幕适配方案等，讲道理说：平时并不需要我们做，但技能包里绝对要有。</p>
+<hr>
+<p>最后，服务器知识+后端语言基础，这个职责和话题就比较hight了，到后面我们会一一解释。</p>
+<hr>
+<p>总之，web前端同样是程序员，由于前端是位于后端程序和界面设计师之间的岗位，相当于中间桥梁，要完成三者的对接，涉及到广泛 的知识，规模大到工程级，也就有了前端工程师的说法（某人总结，很是到位）。</p>
+<hr>
+<p>根据web前端的细分工种 和 业务不同，我无耻的把她比拟出来几个门派，供大家参考，也让无比庞大的前端划分变得有趣一些，不然下面我放一张图， 你看了会晕菜。<br>这里我先简单说几种，我们常常熟知的几个门派<br>比如：</p>
+<p>【少林派】：七十二般武艺样样精通 - web网站开发</p>
+<p>【武当派】：以柔克刚 - 移动APP开发</p>
+<p>【峨嵋派】：倾国倾城 - canvas 数据可视化</p>
+<p>【华山派】：剑法精湛 - nodejs开发</p>
+<p>【逍遥派】：潇洒飘逸 - HTML5游戏</p>
+<blockquote>
+<p>让你晕菜的技能树 ，客观您感受一下先</p>
+</blockquote>
+<p><img src="loadimg/tree.jpg" alt="tree"></p>
+<h1 id="二、学习前端"><a href="#二、学习前端" class="headerlink" title="二、学习前端"></a>二、学习前端</h1><h2 id="1-基础"><a href="#1-基础" class="headerlink" title="1.基础"></a>1.基础</h2><h3 id="HTML-CSS基础"><a href="#HTML-CSS基础" class="headerlink" title="HTML + CSS基础"></a><strong><em>HTML + CSS基础</em></strong></h3><p>掌握HTML的标签使用、排版、CSS布局、样式美化和浏览器兼容性。HTML进阶、CSS进阶、div+css布局、HTML+css整站开发。</p>
+<p> html + css 这部分建议在 w3school 在线教程 上学习，边学边练，每个属性后还有在线测试。 然后过一遍之后可以模仿一些网站做些页面。记住这个一定要多练 多练 多练 ，最重要的事儿 还得我说三遍？</p>
+<blockquote>
+<p>忍得住寂寞枯燥，才能拿得到高薪</p>
+</blockquote>
+<p>Codeademy上的<a href="http://www.codecademy.com/en/tracks/web" target="_blank" rel="noopener">html&amp;css</a>课程——在线交互式编程平台，弄清楚基本概念和基本语法<br>w3school上的HTML/CSS教程——技术手册式的教程，比较全面，照着实例敲一遍</p>
+<h3 id="JavaScript的基础"><a href="#JavaScript的基础" class="headerlink" title="JavaScript的基础"></a><strong><em>JavaScript的基础</em></strong></h3><p>掌握js的基本语法、条件、语句和循环，并学习增强逻辑的常用算法。<br>Js基础教程、js内置对象常用方法、常见DOM树操作大全、ECMAscript、DOM、BOM、定时器和焦点图。<br>常见特效、例如：tab、导航、整页滚动、轮播图、JS制作幻灯片、弹出层、手风琴菜单、瀑布流布局、滚动事件、滚差视图。<br>JS高级特征：<br>正则表达式、排序算法、递归算法、闭包、函数节流、作用域链、基于距离运动框架、面向对象基础、</p>
+<p>javascript 要学的内容实在很多，如果没有其他编程语言的基础的话，学起来可能要费些力，还是建议先在 w3school上学习一些基本语法 和定义。<br>然后你必须要看书，然后实践（好多人问 有没有快速捷径，我只能告诉你：如果有捷径，码农们就不用天天如此苦逼了吧）。</p>
+<p>JQuery：基础使用<br>悬着器、DOM操作、特效和动画、方法链、拖拽、变形、JQueryUI组件基本使用。</p>
+<h2 id="2-响应式开发"><a href="#2-响应式开发" class="headerlink" title="2.响应式开发"></a>2.响应式开发</h2><h3 id="HTML5和移动Web开发"><a href="#HTML5和移动Web开发" class="headerlink" title="HTML5和移动Web开发"></a>HTML5和移动Web开发</h3><p>HTML5<br>HTML5新语义标签、HTML5表单、音频和视频、离线和本地存储、SVG、Web Socket、Canvas.</p>
+<p>CSS3:<br>CSS3新选择器、伪元素、脸色表示法、边框、阴影、background系列属性改变、Transition、动画、景深和深透、3D效果制作、Velocity.js框架、元素进场、出场策略、炫酷CSS3网页制作。</p>
+<p>Bootstrap:<br>响应式概念、媒体查询、响应式网站制作、删格系统、删格系统原理、Bootstrap常用模板、LESS和SASS。</p>
+<p>移动Web开发：<br>它可以由JS在移动终端上基于jQuery移动/ Zepto框架。<br>有了这两项主要技能，你就可以满足市场前端工程师的基本要求。根据市场反馈数据，工资一般在八千至一万三千澳元/月之间。<br>跨终端WEB和主流设备简介、视口、流式布局、弹性盒子、rem、移动终端JavaScript事件、手机中常见JS效果制作、Zepto.js、手机聚划算页面、手机滚屏。</p>
+<h2 id="3-HTTP服务和AJAX编程"><a href="#3-HTTP服务和AJAX编程" class="headerlink" title="3.HTTP服务和AJAX编程"></a>3.HTTP服务和AJAX编程</h2><p>WEB服务器基础：<br>服务器基础知识、Apache服务器和其他WEB服务器介绍、Apache服务器搭建、HTTP介绍。</p>
+<p>PHP基础：<br>PHP基础语法、使用PHP处理简单的GET或者POST请求、</p>
+<p>AJAX上篇：<br>充分理解Ajax原理，掌握Ajax原生和jQuery的ajax用法。<br>Ajax简介和异步的概念、Ajax框架的封装、XMLHttpRequest对象详细介绍方法、兼容性处理方法、Ajax框架的封装、Ajax中缓存问题、XML介绍和使用。</p>
+<p>AJAX下篇：<br>JSON和JSON解析、数据绑定和模板技术、JSONP、跨域技术、图片预读取和lazy-load技术、JQuery框架中的AjaxAPI、使用Ajax实现爆布流案例额。</p>
+<h2 id="4-框架的使用"><a href="#4-框架的使用" class="headerlink" title="4.框架的使用"></a>4.框架的使用</h2><p>首先有一点，ES6是一定要去学习的，在Vue2.X，AngularJS2，React中都对ES6提供了原生的支持，以后很多新的特性肯定也会使用ES6的语法去编写。</p>
+<p>Web开发工作流：<br>GIT/SVN、Yeoman脚手架、NPM/Bower依赖管理工具、Grunt/Gulp/Webpack。</p>
+<p>MVC/MVVM/MVW框架：<br>Angular.js、Backbone.js、Knockout/Ember。</p>
+<p>常用库：<br>React.js、Vue.js、Zepto.js。</p>
+<p>AngularJS</p>
+<p>AngularJS在由AngularJS1升级到AngularJS2以后，完全是一个新的东西，原来在AngularJS1中的controller，service，filter等内容在AngularJS2中都变成一个个的module，component。</p>
+<p>所以如果还没学过AngularJS部分内容的同学可以直接选择学习AngularJS2。但是需要注意的是AngularJS2是以Typescript语言编写的，所以对Typescript的学习就必不可少了。</p>
+<p>Vue</p>
+<p>个人认为Vue学习是相对来说成本比较低的框架，目前官方文档已经很详细，关于Vue全家桶的内容像Vue-resource，Vue-router，Vuex等越来越完善，而且在Github上开源是项目也有很多，可以很容易掌握。感兴趣的可以关注下我自己用Vue开发的一个简书网站。</p>
+<p>React</p>
+<p>React采用了Virtual DOM这一个很独特的概念，提高了页面渲染的效率。但是也是由于Virtual DOM的存在，在编程方式上，React和Vue,AngularJS稍有不同，如果习惯了Vue开发，可能还不太习惯React的开发。</p>
+<p>在针对框架层面，在学习之后，应该能回答下面这些问题。</p>
+<p>AngularJS和Vue的双向数据绑定的实现</p>
+<p>Vuex工作机制</p>
+<p>React的Virtual DOM基本实现，如何自己实现一个Virtual DOM算法</p>
+<h2 id="5-HTML5原生移动应用开发"><a href="#5-HTML5原生移动应用开发" class="headerlink" title="5.HTML5原生移动应用开发"></a>5.HTML5原生移动应用开发</h2><p>Cordova：<br>WebApp/NativeApp/HybirdApp简介、Cordova简介、与PhoneGap之间的关系、开发环境搭建、Cordova实战（创建项目，配置，编译，调试，部署发布）。</p>
+<p>Ionic：<br>Ionic简介和同类对比、模板项目解析、常见组件及使用、结合Angular构建APP、常见效果（下拉刷新，上拉加载，侧滑导航，选项卡）。</p>
+<p>React Native：<br>React Native简介、React Native环境配置、创建项目，配置，编译，调试，部署发布、原生模块和UI组件、原生常用API。</p>
+<p>HTML5+：<br>HTML5+中国产业联盟、HTML5 Plus Runtime环境、HBuilder开发工具、MUI框架、H5+开发和部署。</p>
+<h2 id="6-模块化-amp-组件化"><a href="#6-模块化-amp-组件化" class="headerlink" title="6.模块化&amp;组件化"></a>6.模块化&amp;组件化</h2><p>前端开发已经从原来的整体化开发发展到现在的模块化开发，甚至是组件化开发，开发过程愈发精细，讲求的是代码的可复用性。<br>以前一个页面从上到下一次编写的过程，现在已经发展为先将页面进行拆分成模块甚至是组件，不同的人关注不同的模块，组件，提高开发效率。<br>在模块化开发中，不得不提到CommonJS，AMD和CMD规范，并且有不同的实现，比如RequireJS。对于模块化编程的规范已经有很多的文章有讲到，可以认真去学习下。<br>iview、zanui等框架都是组件化开发，开发时直接使用其组件即可。</p>
+<h2 id="7-构建工具"><a href="#7-构建工具" class="headerlink" title="7.构建工具"></a>7.构建工具</h2><p>前端开发是离不开构建工具的，自己写的代码如何打包压缩，ES6的代码如何编译成JS，Sass，less代码如何编译成原生CSS，这些都是构建工具去完成的。<br>有了构建工具，可以极大的提高我们的开发速度，这里不得不提到的就是gulp+webpack。</p>
+<p>gulp是一种任务驱动型的构建工具，通过管道处理数据流，提高了数据处理速度，而且其提供的一系列插件也很方便使用。</p>
+<p>而webpack的作用就是把所有浏览器端需要发布的静态资源做相应的准备，比如资源的解析、合并和打包，它提供了强大的加载器和插件机制，例如vue-loader提供了对vue的支持，babel-loader提供了对ES6的支持。</p>
+<p>其他的构架工具还有工程化构建的Yeoman，Slush，FIS等。</p>
+<h2 id="8-Node-js全栈开发"><a href="#8-Node-js全栈开发" class="headerlink" title="8. Node.js全栈开发"></a>8. Node.js全栈开发</h2><p>前端开发到最后就是要走全栈开发的道路了，全栈开发以NodeJS作为服务端语言，基于NodeJS实现的服务端框架有Express，KOA，目前也发展的越来越成熟。</p>
+<p>既然讲到全栈开发，肯定会通过服务端语言操纵数据库，因此对于数据库的知识也肯定要掌握的。</p>
+<p>快速入门<br>Node.js发展、生态圈、Io.js、Linux/Windows/OS X环境配置、REPL环境和控制台程序、异步编程，非阻塞I/O、模块概念，模块管理工具、开发流程，调试，测试。</p>
+<p>核心模块和对象：<br>全局对象global，process，console，util、事件驱动，事件发射器、加密解密，路径操作，序列化和反序列化、文件流操作、HTTP服务端与客户端、Socket.IO。</p>
+<p>Web开发基础：<br>HTTP协议，请求响应处理过程、关系型数据库操作和数据访问、非关系型数据库操作和数据访问、原生的Node.js开发Web应用程序、Web开发工作流、Node.js开发Blog案例。</p>
+<p>快速开发框架：<br>Express简介+MVC简介、Express常用API、Express路由模块、Jade/Ejs模板引擎、使用Express重构Blog案例、Koa等其他常见MVC框架。</p>
+<hr>
+<p>以下内容都是经过我自己本身的学习路线经验，还有网络各路大神共同整理的资料 汇总，帮助源源不断入坑的新人更好的学习。</p>
+<p>前端书籍必读、必买（本帅认为）<br>★★ 越多，推荐等级越高，和难度无关。最好按照我给的顺序入门，这样不会让你枯燥，想放弃，如果先推荐经典的厚的，满篇定义，我估计是害你们放弃。</p>
+<p>【JavaScript】</p>
+<p>先说 JavaScript,因为前面说了，css最好跟着视频练习，毕竟都是可视化的，像做艺术。</p>
+<p>【第一本】《JavaScript DOM编程艺术》★★★★★</p>
+<p><img src="loadimg/one.png" alt="one"></p>
+<p>最好的JS入门书籍，最让人有兴趣读完的那种书。<br>它通过一个 幻灯片 案例，从头到尾教你实现出来，最后效果实现的同时，基本的JS常用属性，你也就滚瓜烂熟了，很有成就感。（个人很偏向这种风格书籍，此书让我彻底爱上前端js）<br>一目了然地告诉你如何用JS操作DOM（这是浏览器端编程的基本功），还灌输了最符合标准的编程理念。可惜有点老，最新一版是2010年的。不过不影响阅读和实现，全部按照最新ES5属性就行了。</p>
+<p>【第二本】《JavaScript高级程序设计》 ★★★★</p>
+<p><img src="loadimg/two.png" alt="two"></p>
+<p>又称红宝书，（我喜欢叫 望眼镜）<br>雅虎首席前端架构师，YUI的作者Zakas出品。虽然书名带了“高级”二字，但是讲得都很基础的属性内容，事无巨细。<br>关键一点是翻译的也很到位，并不是如嚼蜡一般，这很重要。看此书，我建议配着下面的犀牛书一起 看效果更佳。</p>
+<p>【第三本】《JavaScript权威指南》 ★★★★★</p>
+<p><img src="loadimg/three.png" alt="three"></p>
+<p>著名的淘宝前端团队翻译的，看译者列表都是一堆前期大神。<br>1<br>这本书又叫犀牛书，被国人誉为：javascript开发者的圣经。网上对此书评价很多很好，大概意思是说这 本书是一本JavaScript文档手册，更适合当作字典和备忘录查询来使用。<br>我也是对这本书有很厚的感情和依赖（忘了属性就拿来翻翻，总有收获），个人感觉这本书还是写得枯燥了些，毕竟是工具性质，不适合当作第一本入门来看，不过内容绝对是五颗星，无可挑剔！神书</p>
+<p>【第四本】《JavaScript语言精粹》 ★★★★★</p>
+<p><img src="loadimg/four.png" alt="four"></p>
+<p>作者是大名鼎鼎的 【老道】，我的JS 偶像，我github第一个关注的就是这个大胡子叔叔。<br>他是 JSON格式的发明和维护者，也有很多著作和对JS 这门语言的超多贡献，可见此人功力绝对顶级！<br>这本书，属于稍微入门以后看的，了解了一些中高级概念 比如：闭包、原型链、作用域链、继承封装等以后，<br>看此书有如神助，看一页相当于犀牛书几十页的讲解（不吹牛逼，当时我是这感觉的）</p>
+<p>【CSS】类， 如果视频看完了，练习的熟练了，你还需要一些书的推荐和查询，也是有必要的，我再来给你罗列几本经典的收藏书，买不买均可的。</p>
+<p>【第一本】《Head first HTML&amp;CSS》 ★★★</p>
+<p><img src="loadimg/cssone.png" alt="one"></p>
+<p>好的入门书。看两遍就对HTML &amp; CSS 有个大概印象了。<br>此时把w3cschool作为备查手册收藏起来，结合此书，事半功倍，成就感爆棚。</p>
+<p>【第二本】《CSS权威指南（第三版）》 ★★★★</p>
+<p><img src="loadimg/csstwo.png" alt="one"></p>
+<p>最权威的CSS书籍，除了阅读W3C的文档外的不二选择（就是翻译太操蛋，可能有的词你以为是火星语，不过不影响阅读）。<br>有时间可以反复看，有css3内容，并当做字典随时查。类似犀牛书</p>
+<p>【第三本】《图解CSS3：核心技术与案例实践》 ★★★</p>
+<p><img src="loadimg/cssthree.png" alt="one"></p>
+<p>这本书讲解的是最新的CSS3（前几本书停留在CSS2.1时代，2.1是基础），CSS3也是必学的，不然真的跟不上时代了。</p>
+<p>【第四本】《CSS禅意花园》 ★★★★</p>
+<p><img src="loadimg/cssfour.png" alt="one"></p>
+<p>这里写图片描述<br>这本书很值得期待，我看过PDF版本的，那时候还没翻译出来，翻译的也一般，不过作者是巨牛逼的，听说对css理解的就像自己的左右手，光靠写CSS 他年薪就轻松百万了。。汗颜！思路清晰，图文并茂，还解决一些疑难杂症和高级技巧，类似于JS的语言精粹了，大神级别。</p>
+<p>好了，差不多就推荐到这里，CSS这基本是基于情怀，罗列一下，买不买都没必要，想当年我学CSS 是挨着几个仅有的视频，一个属性一个属性的练习，还有IE6 各种兼容问题，虐到爆，那酸爽（现在你们是性福的，基本不用兼容IE6 这个老东西了，）。</p>
+<p>真正起到决定作用的，还是JS语言的掌握和实践，JS能力越强 基础越稳固，你的前端能力就会越好， 自然薪资越高，所以现实点说大家，大家一起努力吧，让money 都到碗里来</p>
+<p>（有些童鞋认为：从来不需要买纸质书，我全程PDF就行了嘛，不过我建议有些书还是要纸质的，这样有感觉，也可以做笔记，甚至随时当工具书字典来查询，由于前端的特殊性和js语言的属性之繁多庞杂，我建议你还是要买纸质的书。帮助很大，而且我告诉你有了钱要补上正版呃）</p>
+<p>那么PDF截图奉上，嘿嘿 如果需要请到此大神网站 网盘下载，应有尽有，此处应该有掌声！</p>
+<p>地址：<a href="http://www1.w3cfuns.com/feres.php?do=picture&amp;listtype=book" target="_blank" rel="noopener">http://www1.w3cfuns.com/feres.php?do=picture&amp;listtype=book</a></p>
+<h3 id="前端网站大汇总"><a href="#前端网站大汇总" class="headerlink" title="前端网站大汇总"></a>前端网站大汇总</h3><p>1、前端知识体系：<br>前端知识体系及修炼攻略：<a href="http://blog.csdn.net/borishuai/article/details/8676573——对前端知识体系剖析的非常好，尤其是最后对前端的阶段性划分，对前端学习很有指导意义，推荐！" target="_blank" rel="noopener">http://blog.csdn.net/borishuai/article/details/8676573——对前端知识体系剖析的非常好，尤其是最后对前端的阶段性划分，对前端学习很有指导意义，推荐！</a><br>前端开发知识结构：<a href="https://github.com/JacksonTian/fks——有个前端知识框架的思维导图，给了很多链接和好书，推荐！" target="_blank" rel="noopener">https://github.com/JacksonTian/fks——有个前端知识框架的思维导图，给了很多链接和好书，推荐！</a><br>2、技术资讯类<br>W3Cfuns : <a href="http://www.w3cfuns.com/——国内最大的前端站，比较全" target="_blank" rel="noopener">http://www.w3cfuns.com/——国内最大的前端站，比较全</a><br>大前端：<a href="http://www.daqianduan.com/——没有W3Cfuns那么杂，有些wodpress的主题，“前端导航”也比较好用" target="_blank" rel="noopener">http://www.daqianduan.com/——没有W3Cfuns那么杂，有些wodpress的主题，“前端导航”也比较好用</a><br>W3Cplus:<a href="http://www.w3cplus.com/——也是比较全，有个“国外优秀译文”，非常喜欢" target="_blank" rel="noopener">http://www.w3cplus.com/——也是比较全，有个“国外优秀译文”，非常喜欢</a><br>前端观察 ：<a href="http://www.qianduan.net/——专注于前端设计与开发的博客，比较有深度，排版干净，推荐！*" target="_blank" rel="noopener">http://www.qianduan.net/——专注于前端设计与开发的博客，比较有深度，排版干净，推荐！*</a>*<br>前端乱炖 ：<a href="http://www.html-js.com/——有点像前端的知乎，有问答平台和专栏啥的" target="_blank" rel="noopener">http://www.html-js.com/——有点像前端的知乎，有问答平台和专栏啥的</a><br>3、技术教程、文档类<br>慕课网：<a href="http://www.imooc.com/course/program" target="_blank" rel="noopener">http://www.imooc.com/course/program</a><br>——超级实用的视频教程类网站，各种小实例，非常适合照着“前端学习计划”计划学习<br>codeademy : <a href="http://www.codeademy.com/——英文，简单有趣的互动编程学习网站，非常适合入门，中文版是http://www.fenby.com/" target="_blank" rel="noopener">http://www.codeademy.com/——英文，简单有趣的互动编程学习网站，非常适合入门，中文版是http://www.fenby.com/</a><br>W3schoo在线教程l: <a href="http://www.w3school.com.cn/——中文，适合入门，教程相当全，在线实例可以敲，可惜较浅，有些地方不太准确和深入" target="_blank" rel="noopener">http://www.w3school.com.cn/——中文，适合入门，教程相当全，在线实例可以敲，可惜较浅，有些地方不太准确和深入</a><br>火狐开发者网络MDN：<a href="https://developer.mozilla.org/zh-CN/——中文，不仅有技术文档，而且有相当多的参考资料和资源、工具，推荐！" target="_blank" rel="noopener">https://developer.mozilla.org/zh-CN/——中文，不仅有技术文档，而且有相当多的参考资料和资源、工具，推荐！</a><br>W3C标准：<a href="http://www.w3.org/standards/" target="_blank" rel="noopener">http://www.w3.org/standards/</a><br>——英文，不解释，官方文档，真前端和伪前端就在于此。可惜英文的，而且可读性差。极不适合入门，适合提高。<br>Web平台文档：<a href="http://www.webplatform.org/——英文，权威性仅次于W3C标准，可读性高于W3C标准，W3C官方认可，高质量。" target="_blank" rel="noopener">http://www.webplatform.org/——英文，权威性仅次于W3C标准，可读性高于W3C标准，W3C官方认可，高质量。</a></p>
+<h3 id="一些不错的网站"><a href="#一些不错的网站" class="headerlink" title="一些不错的网站"></a>一些不错的网站</h3><p>github：没啥好说的，多阅读别人的源码，多上传自己的源码，向世界各地的大牛学习<br>codepen：感受前端之美的必选之地，里面有很多酷炫的效果和优秀的插件<br>echojs：快速了解js新资讯的网站<br>stackoverflow和segmentfault：基本上各种问题都能在上面获得解答<br>google web fundamentals：每篇文章都适合仔细阅读<br>static files：开放的CDN，很好用<br>iconfont：阿里的矢量图标库，非常不错，支持CDN而且支持项目<br>html5 rocks: 一个不错的网站，很多浏览器的新特性以及前沿的技术，都能在这上面找到文章<br>css tricks：如何活用CSS，以及了解CSS新特性，这里可以满足你<br>JavaScript 秘密花园 JavaScript初学必看，非常不错<br>w3cplus：一个前端学习的网站，里面的文章质量都挺不错的<br>node school：一个不错的node学习网站<br>learn git branch：一个git学习网站，交互很棒<br>前端乱炖：一个前端文章分享的社区，有很多优秀文章<br>正则表达式：一个正则表达式入门教程，非常值得一看<br>各路大牛的博客：这个太多了，就不贴了，知乎上有很全的<br>各种规范的官方网站，不懂得时候读规范</p>
+
+      
+    </div>
+    
+    
+    
+    <div>
+      
+        
+      
+	</div>
+    
+	
+	<div>
+	  
+		<div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">本 文 结 束 <i class="fa fa-heart"></i> 感 谢 阅 读</div>
+    
+</div>
+	  
+	</div>
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/zanshang.png" alt="HHN 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="HHN 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+        <div class="post-widgets">
+        
+          <div class="wp_rating">
+            <div style="color:rgba(0,0,0,0.75); font-size:13px; letter-spacing:3px" id="wpac-rating">(&gt;给文章打打分吧&lt;)</div>
+          </div>
+        
+
+        
+
+        
+        </div>
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/class命名/2018/09/10/name/" rel="next" title="css常用命名">
+                <i class="fa fa-chevron-left"></i> css常用命名
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/uncategorized/2018/09/15/cssstyle/" rel="prev" title="css样式">
+                css样式 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+    <div class="comments" id="comments">
+      <div id="SOHUCS"></div>
+    </div>
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+      <div id="sidebar-dimmer"></div>
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.jpg"
+                alt="HHN" />
+            
+              <p class="site-author-name" itemprop="name">HHN</p>
+              <p class="site-description motion-element" itemprop="description">明天一定是美好的一天</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/weixiaorensheng" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+            
+			
+			  <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+				<div class="links-of-blogroll-title">
+				  <i class="fa  fa-fw fa-link"></i>
+				  推荐阅读&nbsp;
+				  <i class="fa  fa-fw fa-link"></i>
+				</div>
+				<ul class="links-of-blogroll-list">
+				  
+					<li class="links-of-blogroll-item">
+					  <a href="http://www.uisdc.com/" title="优设" target="_blank">优设</a>
+					</li>
+				  
+					<li class="links-of-blogroll-item">
+					  <a href="http://www.alloyteam.com/nav/" title="Web前端导航" target="_blank">Web前端导航</a>
+					</li>
+				  
+					<li class="links-of-blogroll-item">
+					  <a href="http://www.36zhen.com/t?id=3448" title="前端书籍资料" target="_blank">前端书籍资料</a>
+					</li>
+				  
+					<li class="links-of-blogroll-item">
+					  <a href="http://ife.baidu.com/" title="百度前端技术学院" target="_blank">百度前端技术学院</a>
+					</li>
+				  
+					<li class="links-of-blogroll-item">
+					  <a href="http://wf.uisdc.com/cn/" title="google前端开发基础" target="_blank">google前端开发基础</a>
+					</li>
+				  
+				</ul>
+	         <div id="count-box">
+	<p>本站已建立</p>	
+	<div id="days">
+	</div>
+</div>
+<script>
+function show_date_time(){
+window.setTimeout("show_date_time()", 1000);
+BirthDay=new Date("10/01/2018 15:13:14");
+today=new Date();
+timeold=(today.getTime()-BirthDay.getTime());
+sectimeold=timeold/1000
+secondsold=Math.floor(sectimeold);
+msPerDay=24*60*60*1000
+e_daysold=timeold/msPerDay
+daysold=Math.floor(e_daysold);
+e_hrsold=(e_daysold-daysold)*24;
+hrsold=setzero(Math.floor(e_hrsold));
+e_minsold=(e_hrsold-hrsold)*60;
+minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+seconds=setzero(Math.floor((e_minsold-minsold)*60));
+document.getElementById('days').innerHTML="<span>"+daysold+"</span>"+"Days"+"<span>"+hrsold+"</span>"+"Hours"+"<span>"+minsold+"</span>"+"Mins"+"<span>"+seconds+"</span>"+"Secs";
+}
+function setzero(i){
+if (i<10)
+{i="0" + i};
+return i;
+}
+show_date_time();
+</script>
+
+
+			  </div>
+			 
+
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#一、认识前端"><span class="nav-number">1.</span> <span class="nav-text">一、认识前端</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-什么是前端"><span class="nav-number">1.1.</span> <span class="nav-text">1.什么是前端</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#网页三剑客：DW-FW-Falsh"><span class="nav-number">1.1.1.</span> <span class="nav-text">网页三剑客：DW\FW\Falsh</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-web前端开发入门，需要掌握哪些基础"><span class="nav-number">1.2.</span> <span class="nav-text">2.web前端开发入门，需要掌握哪些基础</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-web前端开发-”到底有前途吗？"><span class="nav-number">1.3.</span> <span class="nav-text">3. web前端开发 ”到底有前途吗？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-web前端的分类"><span class="nav-number">1.4.</span> <span class="nav-text">4.web前端的分类</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#二、学习前端"><span class="nav-number">2.</span> <span class="nav-text">二、学习前端</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-基础"><span class="nav-number">2.1.</span> <span class="nav-text">1.基础</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#HTML-CSS基础"><span class="nav-number">2.1.1.</span> <span class="nav-text">HTML + CSS基础</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#JavaScript的基础"><span class="nav-number">2.1.2.</span> <span class="nav-text">JavaScript的基础</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-响应式开发"><span class="nav-number">2.2.</span> <span class="nav-text">2.响应式开发</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#HTML5和移动Web开发"><span class="nav-number">2.2.1.</span> <span class="nav-text">HTML5和移动Web开发</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-HTTP服务和AJAX编程"><span class="nav-number">2.3.</span> <span class="nav-text">3.HTTP服务和AJAX编程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-框架的使用"><span class="nav-number">2.4.</span> <span class="nav-text">4.框架的使用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-HTML5原生移动应用开发"><span class="nav-number">2.5.</span> <span class="nav-text">5.HTML5原生移动应用开发</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-模块化-amp-组件化"><span class="nav-number">2.6.</span> <span class="nav-text">6.模块化&amp;组件化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-构建工具"><span class="nav-number">2.7.</span> <span class="nav-text">7.构建工具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#8-Node-js全栈开发"><span class="nav-number">2.8.</span> <span class="nav-text">8. Node.js全栈开发</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#前端网站大汇总"><span class="nav-number">2.8.1.</span> <span class="nav-text">前端网站大汇总</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#一些不错的网站"><span class="nav-number">2.8.2.</span> <span class="nav-text">一些不错的网站</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love" id="heart">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" style="font-family: 'Comic Sans MS', sans-serif;text-align: center;" itemprop="copyrightHolder">HHN</span>
+  <br/>
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count">8.9k</span>
+  
+</div>
+
+<i class="fa fa-eye"></i>本页点击 <span id="busuanzi_value_page_pv"></span> 次
+<i class="fa fa-eye"></i>本站总点击 <span id="busuanzi_value_site_pv"></span> 次
+<i class="fa fa-user-md"></i>您是第 <span id="busuanzi_value_site_uv"></span> 位访客<br/>
+
+
+
+
+
+
+
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https'){
+   bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else{
+  bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+
+<div class="weixin-box">
+  <div class="weixin-menu">
+    <div class="weixin-hover">
+		<div class="weixin-description">来扫(cao)我啊</div>
+    </div>
+  </div>
+</div>
+
+<div class="alipay-box">
+  <div class="alipay-menu">
+    <div class="alipay-hover">
+		<div class="alipay-description">来扫(cao)我啊</div>
+    </div>
+  </div>
+</div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      <i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      
+    </span>
+  
+</div>
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("NYjqBU4j11i8i0DIUlaEs6Km-gzGzoHsz", "zRC08JpylLYbR2gTsbO4xLFh");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+
+  
+  
+  <script type="text/javascript">
+  wpac_init = window.wpac_init || [];
+  wpac_init.push({widget: 'Rating', id: 14082,
+    el: 'wpac-rating',
+    color: 'f79533'
+  });
+  (function() {
+    if ('WIDGETPACK_LOADED' in window) return;
+    WIDGETPACK_LOADED = true;
+    var mc = document.createElement('script');
+    mc.type = 'text/javascript';
+    mc.async = true;
+    mc.src = '//embed.widgetpack.com/widget.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+  })();
+  </script>
+
+
+  
+
+  
+
+  
+
+  <script type="text/javascript" src="/js/src/particle.js" count="50" zindex="-2" opacity="1" color="0,104,183"></script>
+<!-- 小红心 -->
+  <script type="text/javascript" src="/js/src/love.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>;
+ <!-- 背景 -->
+  <script>
+	$("body").backstretch("/images/bg.png");
+  </script>
+  <!-- 代码块复制功能 -->
+  <script type="text/javascript" src="/js/src/clipboard.min.js"></script>  
+  <script type="text/javascript" src="/js/src/clipboard-use.js"></script>
+ <script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"jsonPath":"live2d-widget-model-wanko"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false,"tagMode":false});</script></body>
+</html>
