@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://weixiaorensheng.github.io/demo/index.html</loc>
+    
+    <lastmod>2018-10-16T11:41:47.851Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://weixiaorensheng.github.io/%E5%B0%8F%E7%A8%8B%E5%BA%8F/2018/10/16/wxapp-food/</loc>
     
-    <lastmod>2018-10-16T11:22:10.905Z</lastmod>
+    <lastmod>2018-10-16T11:40:26.410Z</lastmod>
     
   </url>
   
@@ -19,13 +26,6 @@
     <loc>https://weixiaorensheng.github.io/css/2018/09/23/selector/</loc>
     
     <lastmod>2018-10-15T14:15:13.607Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://weixiaorensheng.github.io/demo/index.html</loc>
-    
-    <lastmod>2018-10-15T14:12:39.818Z</lastmod>
     
   </url>
   
