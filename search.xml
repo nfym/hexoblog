@@ -1,14 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[usehexo]]></title>
+    <title><![CDATA[微信小程序-食物营养成分查询的实现]]></title>
+    <url>%2F%E5%B0%8F%E7%A8%8B%E5%BA%8F%2F2018%2F10%2F16%2Fwxapp-food%2F</url>
+    <content type="text"><![CDATA[数据挖掘实验室食物营养成分查询微信小程序的实现 1.开始1.起步 （小程序官方文档） 申请账号点击 https://mp.weixin.qq.com/wxopen/waregister?action=step1 根据指引填写信息和提交相应的资料，就可以拥有自己的小程序帐号。登录 https://mp.weixin.qq.com ，我们可以在菜单 “设置”-“开发设置” 看到小程序的 AppID 了 。 安装开发工具 前往 开发者工具下载页面 ，根据自己的操作系统下载对应的安装包进行安装，有关开发者工具更详细的介绍可以查看 《开发者工具介绍》 。打开小程序开发者工具，用微信扫码登录开发者工具，就可以开始开发了。 2.代码构成微信小程序中就四种类型的文件 js ———— JavaScrip文件 json ——— 项目配置文件，负责窗口颜色等等 wxml ——– 类似HTML文件 wxss ——— 类似CSS文件 2.开发1.框架** UI框架 ———— iView Weapp 图标 ——— 阿里图标图iconfont iViewiconfont 3到 GitHub 下载 iView Weapp 的代码，将 dist 目录拷贝到自己的项目中。 这是选项卡 2 这是选项卡 3]]></content>
+      <categories>
+        <category>小程序</category>
+      </categories>
+      <tags>
+        <tag>微信</tag>
+        <tag>小程序</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[选择器]]></title>
+    <url>%2Fcss-js%2F2018%2F10%2F15%2Fselect%2F</url>
+    <content type="text"><![CDATA[]]></content>
+      <categories>
+        <category>css js</category>
+      </categories>
+      <tags>
+        <tag>css, js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo博客文章编写使用示例]]></title>
     <url>%2Fhexo-%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99%E5%B8%B8%E7%94%A8%2F2018%2F10%2F07%2Fusehexo%2F</url>
-    <content type="text"><![CDATA[居中1&lt;blockquote class="blockquote-center"&gt;居中&lt;/blockquote&gt; 居中 图片1&lt;img src="/images/bg.png" /&gt; 省略1&lt;!--more--&gt; 音乐12345678910111213141516171819202122232425&lt;iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&amp;id=2321407097&amp;auto=1&amp;height=430"&gt;&lt;/iframe&gt;&#123;% aplayerlist %&#125;&#123; "autoplay": false, "showlrc": 3, "mutex": true, "music": [ &#123; "title": "PLANET", "author": "ラムジ", "url": "https://music.163.com/#/song?id=812400", "pic": "https://封面图.jpg", "lrc": "https://歌词.lrc" &#125;, &#123; "title": "起风了（Cover 高橋優", "author": "歌手名", "url": "https://music.163.com/#/song?id=461525011", "pic": "https://封面图.jpg", "lrc": "https://歌词.lrc" &#125; ]&#125;&#123;% endaplayerlist %&#125; 123&#123;% note danger %&#125; Content (md partial supported) &#123;% endnote %&#125;&lt;div class="note default"&gt;&lt;p&gt;default default primary success info warning danger&lt;/p&gt;&lt;/div&gt;&#123;% label default@default %&#125; Content (md partial supported) default default primary success info warning dangerdefault 1234567891011&#123;% tabs 选项卡, 2 %&#125;&lt;!-- tab --&gt;**这是选项卡 1**&lt;!-- endtab --&gt;&lt;!-- tab --&gt;**这是选项卡 2**&lt;!-- endtab --&gt;&lt;!-- tab --&gt;**这是选项卡 3**&lt;!-- endtab --&gt;&#123;% endtabs %&#125; 选项卡 1选项卡 2选项卡 3这是选项卡 1 这是选项卡 2 这是选项卡 3 123456&gt; 引用&lt;blockquote class="danger"&gt; 引用&lt;/blockquote&gt;&lt;blockquote class="default"&gt; 引用&lt;/blockquote&gt;&lt;blockquote class="blockquote-center"&gt;居中&lt;/blockquote&gt; 引用 引用 引用居中]]></content>
+    <content type="text"><![CDATA[图片1&lt;img src="/images/bg.png" /&gt; 省略1&lt;!--more--&gt; 居中1&lt;blockquote class="blockquote-center"&gt;居中&lt;/blockquote&gt; 居中 音乐12345678910111213141516171819202122232425&lt;iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&amp;id=2321407097&amp;auto=1&amp;height=430"&gt;&lt;/iframe&gt;&#123;% aplayerlist %&#125;&#123; "autoplay": false, "showlrc": 3, "mutex": true, "music": [ &#123; "title": "PLANET", "author": "ラムジ", "url": "https://music.163.com/#/song?id=812400", "pic": "https://封面图.jpg", "lrc": "https://歌词.lrc" &#125;, &#123; "title": "起风了（Cover 高橋優", "author": "歌手名", "url": "https://music.163.com/#/song?id=461525011", "pic": "https://封面图.jpg", "lrc": "https://歌词.lrc" &#125; ]&#125;&#123;% endaplayerlist %&#125; 123&#123;% note danger %&#125; Content (md partial supported) &#123;% endnote %&#125;&lt;div class="note default"&gt;&lt;p&gt;default default primary success info warning danger&lt;/p&gt;&lt;/div&gt;&#123;% label default@default %&#125; Content (md partial supported) default default primary success info warning dangerdefault 1234567891011&#123;% tabs 选项卡, 2 %&#125;&lt;!-- tab --&gt;**这是选项卡 1**&lt;!-- endtab --&gt;&lt;!-- tab --&gt;**这是选项卡 2**&lt;!-- endtab --&gt;&lt;!-- tab --&gt;**这是选项卡 3**&lt;!-- endtab --&gt;&#123;% endtabs %&#125; tabs选项卡 1选项卡 2选项卡 3这是选项卡 1 这是选项卡 2 这是选项卡 3 123456789101112&gt; 引用&lt;blockquote class="danger"&gt; 引用&lt;/blockquote&gt;&lt;blockquote class="default"&gt; 引用&lt;/blockquote&gt;&lt;blockquote class="blockquote-center"&gt;居中&lt;/blockquote&gt;&#123;% cq %&#125;人生乃是一面镜子，从镜子里认识自己，我要称之为头等大事，也只是我们追求的目的！&#123;% endcq %&#125; 引用 引用 引用 居中 居中 人生乃是一面镜子，从镜子里认识自己，我要称之为头等大事，也只是我们追求的目的！ 支持 MarkdownHexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。 一件部署只需一条指令即可部署到 GitHub Pages，或其他网站。 丰富的插件Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade，CoffeeScript。 铅笔 上传 下载 下载 下载变大 33% 下载两倍大 1.]]></content>
       <categories>
         <category>hexo 博客编写常用</category>
       </categories>
       <tags>
-        <tag>hexo  hexo文章</tag>
+        <tag>hexo</tag>
+        <tag>hexo文章</tag>
       </tags>
   </entry>
   <entry>
@@ -25,7 +49,7 @@
   <entry>
     <title><![CDATA[location]]></title>
     <url>%2Fcss%E5%AE%9A%E4%BD%8D%2F2018%2F09%2F23%2Flocation%2F</url>
-    <content type="text"><![CDATA[优秀的人，不是不合群，而是他们合群的人里没有你 支持 MarkdownHexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。 一件部署只需一条指令即可部署到 GitHub Pages，或其他网站。 丰富的插件Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade，CoffeeScript。 var options = {"narrow":false,"autoplay":false,"showlrc":3,"mutex":true,"music":[{"title":"歌曲名","author":"歌手名","url":"https://什么什么什么.mp3","pic":"https://封面图.jpg","lrc":"https://歌词.lrc"},{"title":"歌曲名","author":"歌手名","url":"https://什么什么什么.mp3","pic":"https://封面图.jpg","lrc":"https://歌词.lrc"}]}; options.element = document.getElementById("aplayer-guHhxnSC"); var ap = new APlayer(options); window.aplayers || (window.aplayers = []); window.aplayers.push(ap); codejs隐藏与显示回到顶部按钮12345678window.onscroll = function () &#123; if (document.documentElement.scrollTop + document.body.scrollTop &gt; 100) &#123; document.getElementById("scrollto").style.display = "block"; &#125; else &#123; document.getElementById("scrollto").style.display = "none"; &#125; &#125;]]></content>
+    <content type="text"><![CDATA[优秀的人，不是不合群，而是他们合群的人里没有你 支持 MarkdownHexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。 一件部署只需一条指令即可部署到 GitHub Pages，或其他网站。 丰富的插件Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade，CoffeeScript。 var options = {"narrow":false,"autoplay":false,"showlrc":3,"mutex":true,"music":[{"title":"歌曲名","author":"歌手名","url":"https://什么什么什么.mp3","pic":"https://封面图.jpg","lrc":"https://歌词.lrc"},{"title":"歌曲名","author":"歌手名","url":"https://什么什么什么.mp3","pic":"https://封面图.jpg","lrc":"https://歌词.lrc"}]}; options.element = document.getElementById("aplayer-XVvWdaNt"); var ap = new APlayer(options); window.aplayers || (window.aplayers = []); window.aplayers.push(ap); codejs隐藏与显示回到顶部按钮12345678window.onscroll = function () &#123; if (document.documentElement.scrollTop + document.body.scrollTop &gt; 100) &#123; document.getElementById("scrollto").style.display = "block"; &#125; else &#123; document.getElementById("scrollto").style.display = "none"; &#125; &#125;]]></content>
       <categories>
         <category>css定位</category>
       </categories>
@@ -35,8 +59,11 @@
   </entry>
   <entry>
     <title><![CDATA[css选择器]]></title>
-    <url>%2Funcategorized%2F2018%2F09%2F23%2Fselector%2F</url>
-    <content type="text"><![CDATA[CSS选择器1.css元素选择器2.选择器分组3.ID选择器4.类选择器5.属性选择器6.后代选择器7.子元素选择器8.相邻兄弟选择器9.派生选择器10.nth-child（IE不支持）11.nth-of-type12.*通用选择器10.nth-child(n) :nth-child(n) 选择器匹配属于其父元素的第 N 个子元素，不论元素的类型，如： 1234&lt;div&gt; &lt;span&gt;2018/08 第五周&lt;/span&gt;&lt;br/&gt; &lt;span&gt;8-24~8-30&lt;/span&gt;&lt;/div&gt; 如果1234div span：nth-child(2)&#123;&#125; 那么匹配的是span的父元素（div）的第二个子元素br,而不是第二个span！从左往右很容易误解成div的第二个sapn子元素，这是错误的哦，(nth-of-type)才是这样 ！注意：！nth-child（）选择器下标是从1开始，而不是像数组之类的从0开始；！选择器下标计算包括所有子元素，不要只计算：前自己指定的元素的个数 上面例子的下标就是1（span），2（br），3（span） 11. nth-of-type(n) :nth-of-type(n) 选择器匹配属于其父元素的特定类型的第 N 个子元素. 跟上面相同的代码1234div span：nth-child(2)&#123;&#125; 匹配的是div的第二个span子元素 Odd 和 even 是可用于匹配下标是奇数或偶数的子元素的关键词12345678p:nth-of-type(odd)&#123;background:#ff0000;&#125;p:nth-of-type(even)&#123;background:#0000ff;&#125;]]></content>
+    <url>%2Fcss%2F2018%2F09%2F23%2Fselector%2F</url>
+    <content type="text"><![CDATA[CSS选择器的使用 CSS选择器的种类 1.css元素选择器 2.选择器分组 4.类选择器 5.属性选择器 6.后代选择器 7.子元素选择器 8.相邻兄弟选择器 9.派生选择器 10.nth-child（IE不支持） 11.nth-of-type 12.* 通用选择器 1.css元素选择器css元素选择器直接通过元素的 default default primary success info warning danger warning 2.选择器分组3.ID选择器4.类选择器5.属性选择器6.后代选择器7.子元素选择器8.相邻兄弟选择器9.派生选择器10.nth-child（IE不支持）11.nth-of-type12.* 通用选择器10.nth-child(n) :nth-child(n) 选择器匹配属于其父元素的第 N 个子元素，不论元素的类型，如： 1234&lt;div&gt; &lt;span&gt;2018/08 第五周&lt;/span&gt;&lt;br/&gt; &lt;span&gt;8-24~8-30&lt;/span&gt;&lt;/div&gt; 如果1234div span：nth-child(2)&#123;&#125; 那么匹配的是span的父元素（div）的第二个子元素br,而不是第二个span！从左往右很容易误解成div的第二个sapn子元素，这是错误的哦，(nth-of-type)才是这样 ！注意：！nth-child（）选择器下标是从1开始，而不是像数组之类的从0开始；！选择器下标计算包括所有子元素，不要只计算：前自己指定的元素的个数 上面例子的下标就是1（span），2（br），3（span） 11. nth-of-type(n) :nth-of-type(n) 选择器匹配属于其父元素的特定类型的第 N 个子元素. 跟上面相同的代码1234div span：nth-child(2)&#123;&#125; 匹配的是div的第二个span子元素 Odd 和 even 是可用于匹配下标是奇数或偶数的子元素的关键词12345678p:nth-of-type(odd)&#123;background:#ff0000;&#125;p:nth-of-type(even)&#123;background:#0000ff;&#125;]]></content>
+      <categories>
+        <category>css</category>
+      </categories>
       <tags>
         <tag>css</tag>
       </tags>
