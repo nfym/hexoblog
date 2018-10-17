@@ -271,6 +271,16 @@
           </a>
         </li>
       
+        
+        <li class="menu-item menu-item-demo">
+          <a href="/demo/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-coffee"></i> <br />
+            
+            我的
+          </a>
+        </li>
+      
 
       
         <li class="menu-item menu-item-search">
@@ -620,7 +630,7 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/uncategorized/2018/09/11/progress/" itemprop="url">
+            <a class="post-title-link" href="/小程序/2018/09/11/progress/" itemprop="url">
               
                 <span itemprop="name">前端进阶之路</span>
               
@@ -759,7 +769,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">8</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -889,7 +899,7 @@ show_date_time();
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">9.4k</span>
+    <span title="Site words total count">9.6k</span>
   
 </div>
 
@@ -1544,10 +1554,17 @@ show_date_time();
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>;
  <!-- 背景 -->
   <script>
-	$("body").backstretch("/images/bg.png");
+	$("body").backstretch(
+	[
+    "/images/bg.png",
+    "/images/bg.jpg",
+    "/images/bg_cat.jpg",
+	"/images/bgimg/bg_cat.05"
+  ], {duration: 4000,fade: 500});
+  //https://github.com/jquery-backstretch/jquery-backstretch
   </script>
   <!-- 代码块复制功能 -->
   <script type="text/javascript" src="/js/src/clipboard.min.js"></script>  
   <script type="text/javascript" src="/js/src/clipboard-use.js"></script>
- <script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"jsonPath":"live2d-widget-model-wanko"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false,"tagMode":false});</script></body>
+ <script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/haruto.model.json"},"display":{"position":"left","width":150,"height":300},"mobile":{"show":true},"log":false,"tagMode":false});</script></body>
 </html>

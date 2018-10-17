@@ -272,6 +272,16 @@
           </a>
         </li>
       
+        
+        <li class="menu-item menu-item-demo">
+          <a href="/demo/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-coffee"></i> <br />
+            
+            我的
+          </a>
+        </li>
+      
 
       
         <li class="menu-item menu-item-search">
@@ -435,7 +445,7 @@
                    <span class="post-meta-item-text">字数统计</span>
                  
                    <span title="字数统计" }}">
-                     485 字  
+                     679 字  
                    </span>
              
              
@@ -449,7 +459,7 @@
                    <span class="post-meta-item-text">阅读时长</span>
                  
                    <span title="阅读时长" }}">
-                     2 分钟   
+                     3 分钟   
                    </span>
              
            </div>
@@ -471,9 +481,17 @@
 
       
         
-          <h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"/images/bg.png"</span> /&gt;</span></span><br></pre></td></tr></table></figure>
+          <h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"/images/bg.png"</span> /&gt;</span></span><br></pre></td></tr></table></figure>
 <p><img src="/images/bg.png"></p>
-<h3 id="省略"><a href="#省略" class="headerlink" title="省略"></a>省略</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--more--&gt;</span></span><br></pre></td></tr></table></figure>
+<h3 id="1-在站点配置文件-config-yml中将post-asset-folder设置为true-即："><a href="#1-在站点配置文件-config-yml中将post-asset-folder设置为true-即：" class="headerlink" title="1.在站点配置文件_config.yml中将post_asset_folder设置为true 即："></a>1.在站点配置文件_config.yml中将post_asset_folder设置为true 即：</h3><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">post_asset_folder:</span><span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<h3 id="2-在hexo的目录下执行"><a href="#2-在hexo的目录下执行" class="headerlink" title="2.在hexo的目录下执行"></a>2.在hexo的目录下执行</h3> <figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install https:<span class="regexp">//gi</span>thub.com<span class="regexp">/CodeFalling/</span>hexo-asset-image --save</span><br></pre></td></tr></table></figure>
+<h3 id="3-安装完成"><a href="#3-安装完成" class="headerlink" title="3.安装完成"></a>3.安装完成</h3><p>&emsp;&emsp;完成安装后用hexo新建文章的时候会发现<code>_posts</code>目录下面会多出一个和文章名字一样的文件夹。</p>
+<h3 id="4-插入图片"><a href="#4-插入图片" class="headerlink" title="4.插入图片"></a>4.插入图片</h3><p>通过相对路径标签引用资源，而不是markdown语法引用。<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% asset_img pic04.jpg [测试成功] %&#125;</span><br><span class="line">![<span class="string">测试失败</span>](<span class="link">/usehexo/pic04.jpg</span>)</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"/usehexo/pic04.jpg"</span> <span class="attr">alt</span>=<span class="string">"测试失败"</span> /&gt;</span></span></span><br></pre></td></tr></table></figure></p>
+<img src="/hexo-博客编写常用/2018/10/07/usehexo/pic04.jpg" title="[测试成功]">
+<p><img src="/usehexo/pic04.jpg" alt="测试失败"><br><img src="/usehexo/pic04.jpg" alt="测试失败"></p>
+<blockquote class="default">tips:<br>博客source下的自建图片文件夹<span class="label warning">themes\boke\source\images</span>(文章开头第一张背景图就放在了自建文件夹里)<br>next主题的图片文件夹<span class="label warning">themes\boke\theme\next\source\images</span><br></blockquote>
+
+<h2 id="文章阅读更多"><a href="#文章阅读更多" class="headerlink" title="文章阅读更多"></a>文章阅读更多</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--more--&gt;</span></span><br></pre></td></tr></table></figure>
 		  
 		 
 		  
@@ -842,7 +860,7 @@ class常用命名
                    <span class="post-meta-item-text">字数统计</span>
                  
                    <span title="字数统计" }}">
-                     305 字  
+                     312 字  
                    </span>
              
              
@@ -879,9 +897,9 @@ class常用命名
       
         
           
-            数据挖掘实验室食物营养成分查询微信小程序的实现 
+            小程序页面开发 
 
-1.开始1.起步 （小程序官方文档）   申请账号点击 https://mp.weixin.qq.com/wxopen/waregister?action=step1 根据指引填写信息和提交相应的资料，就可以拥有自己的小程序帐号。登录 http
+1.开始起步 （小程序官方文档）   申请账号&emsp;&emsp;点击 https://mp.weixin.qq.com/wxopen/waregister?action=step1 根据指引填写信息和提交相应的资料，就可以拥有自己的小程序帐号。登录 https://mp
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -1921,7 +1939,7 @@ CSS选择器的种类
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://weixiaorensheng.github.io/uncategorized/2018/09/11/progress/">
+    <link itemprop="mainEntityOfPage" href="https://weixiaorensheng.github.io/小程序/2018/09/11/progress/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="HHN">
@@ -1940,7 +1958,7 @@ CSS选择器的种类
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/uncategorized/2018/09/11/progress/" itemprop="url">前端进阶之路</a></h1>
+                <a class="post-title-link" href="/小程序/2018/09/11/progress/" itemprop="url">前端进阶之路</a></h1>
         
 
         <div class="post-meta">
@@ -1963,6 +1981,28 @@ CSS选择器的种类
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/小程序/" itemprop="url" rel="index">
+                    <span itemprop="name">小程序</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -1970,7 +2010,7 @@ CSS选择器的种类
 
           
           
-             <span id="/uncategorized/2018/09/11/progress/" class="leancloud_visitors" data-flag-title="前端进阶之路">
+             <span id="/小程序/2018/09/11/progress/" class="leancloud_visitors" data-flag-title="前端进阶之路">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -2037,7 +2077,7 @@ CSS选择器的种类
           ...
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/uncategorized/2018/09/11/progress/#more" rel="contents">
+            <a class="btn" href="/小程序/2018/09/11/progress/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -2155,7 +2195,7 @@ CSS选择器的种类
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">8</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -2285,7 +2325,7 @@ show_date_time();
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">9.4k</span>
+    <span title="Site words total count">9.6k</span>
   
 </div>
 
@@ -2940,10 +2980,17 @@ show_date_time();
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>;
  <!-- 背景 -->
   <script>
-	$("body").backstretch("/images/bg.png");
+	$("body").backstretch(
+	[
+    "/images/bg.png",
+    "/images/bg.jpg",
+    "/images/bg_cat.jpg",
+	"/images/bgimg/bg_cat.05"
+  ], {duration: 4000,fade: 500});
+  //https://github.com/jquery-backstretch/jquery-backstretch
   </script>
   <!-- 代码块复制功能 -->
   <script type="text/javascript" src="/js/src/clipboard.min.js"></script>  
   <script type="text/javascript" src="/js/src/clipboard-use.js"></script>
- <script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"jsonPath":"live2d-widget-model-wanko"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false,"tagMode":false});</script></body>
+ <script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/haruto.model.json"},"display":{"position":"left","width":150,"height":300},"mobile":{"show":true},"log":false,"tagMode":false});</script></body>
 </html>
