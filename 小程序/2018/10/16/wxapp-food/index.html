@@ -111,10 +111,13 @@
 <meta property="og:description" content="小程序页面开发   1.开始起步 （小程序官方文档）   申请账号&amp;emsp;&amp;emsp;点击 https://mp.weixin.qq.com/wxopen/waregister?action=step1 根据指引填写信息和提交相应的资料，就可以拥有自己的小程序帐号。登录 https://mp.weixin.qq.com ，我们可以在菜单 “设置”-“开发设置” 看到小程序的 AppID 了">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://weixiaorensheng.github.io/小程序/2018/10/16/wxapp-food/home.png">
-<meta property="og:image" content="https://weixiaorensheng.github.io/images/home.png">
-<meta property="og:image" content="https://weixiaorensheng.github.io/images/bg.png">
-<meta property="og:image" content="https://weixiaorensheng.github.io/小程序/2018/10/16/wxapp-food/wxapp-food/dist.png">
-<meta property="og:updated_time" content="2018-10-17T12:35:58.148Z">
+<meta property="og:image" content="https://weixiaorensheng.github.io/小程序/2018/10/16/wxapp-food/dist.png">
+<meta property="og:image" content="https://weixiaorensheng.github.io/小程序/2018/10/16/wxapp-food/iconfont.png">
+<meta property="og:image" content="https://weixiaorensheng.github.io/小程序/2018/10/16/wxapp-food/ttf.png">
+<meta property="og:image" content="https://weixiaorensheng.github.io/小程序/2018/10/16/wxapp-food/addicon.png">
+<meta property="og:image" content="https://weixiaorensheng.github.io/小程序/2018/10/16/wxapp-food/addname.png">
+<meta property="og:image" content="https://weixiaorensheng.github.io/小程序/2018/10/16/wxapp-food/shangxian.png">
+<meta property="og:updated_time" content="2018-10-17T13:58:23.570Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="微信小程序-食物营养成分查询的实现">
 <meta name="twitter:description" content="小程序页面开发   1.开始起步 （小程序官方文档）   申请账号&amp;emsp;&amp;emsp;点击 https://mp.weixin.qq.com/wxopen/waregister?action=step1 根据指引填写信息和提交相应的资料，就可以拥有自己的小程序帐号。登录 https://mp.weixin.qq.com ，我们可以在菜单 “设置”-“开发设置” 看到小程序的 AppID 了">
@@ -454,7 +457,7 @@
                    <span class="post-meta-item-text">字数统计</span>
                  
                    <span title="字数统计" }}">
-                     312 字  
+                     661 字  
                    </span>
              
              
@@ -468,7 +471,7 @@
                    <span class="post-meta-item-text">阅读时长</span>
                  
                    <span title="阅读时长" }}">
-                     1 分钟   
+                     2 分钟   
                    </span>
              
            </div>
@@ -500,14 +503,26 @@
 <li>wxss ——— 类似CSS文件</li>
 </ul></div>
 <hr>
-<h1 id="2-开发"><a href="#2-开发" class="headerlink" title="2.开发"></a><span id="inline-toc">2.</span>开发</h1><h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><p>通过搜索食物名查询食物营养<br><img src="/小程序/2018/10/16/wxapp-food/home.png" title="[title]"><br><img src="/images/home.png" alt="home"><br><img src="/images/bg.png"></p>
-<h2 id="1-框架"><a href="#1-框架" class="headerlink" title="1.框架"></a>1.框架</h2><div class="note info"><h4 id=""><a href="#" class="headerlink" title="**"></a><em>**</em></h4><ul>
+<h1 id="2-开发"><a href="#2-开发" class="headerlink" title="2.开发"></a><span id="inline-toc">2.</span>开发</h1><h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><p>通过搜索食物名查询食物营养<br><img src="/小程序/2018/10/16/wxapp-food/home.png" title="[app首页]"></p>
+<h2 id="框架"><a href="#框架" class="headerlink" title="框架"></a>框架</h2><div class="note info"><h4 id="框架图标"><a href="#框架图标" class="headerlink" title="框架图标"></a><strong>框架图标</strong></h4><ul>
 <li>UI框架 ———— <a href="https://weapp.iviewui.com/docs/guide/start" target="_blank" rel="noopener">iView Weapp</a></li>
 <li>图标 ——— <a href="http://www.iconfont.cn/plus/collections/index" target="_blank" rel="noopener">阿里图标图iconfont</a></li>
 </ul></div>
-<div class="tabs" id=""><ul class="nav-tabs"><li class="tab active"><a href="#-1">iView</a></li><li class="tab"><a href="#-2">iconfont</a></li></ul><div class="tab-content"><div class="tab-pane active" id="-1"><p>到 <a href="https://github.com/TalkingData/iview-weapp" target="_blank" rel="noopener">GitHub</a> 下载 iView Weapp 的代码，将 <span class="label warning">dist</span> 目录拷贝到自己的项目中。<br><img src="wxapp-food/dist.png" alt="dist"></p>
-</div><div class="tab-pane" id="-2"><p><a href="http://www.cnblogs.com/wesky/p/7593115.html" target="_blank" rel="noopener">微信小程序使用阿里图标</a></p>
+<div class="tabs" id=""><ul class="nav-tabs"><li class="tab active"><a href="#-1">iView</a></li><li class="tab"><a href="#-2">iconfont</a></li></ul><div class="tab-content"><div class="tab-pane active" id="-1"><p>到 <a href="https://github.com/TalkingData/iview-weapp" target="_blank" rel="noopener">GitHub</a> 下载 iView Weapp 的代码，将 <span class="label warning">dist</span> 目录拷贝到自己的项目中。<br><img src="/小程序/2018/10/16/wxapp-food/dist.png" title="[dist]"></p>
+</div><div class="tab-pane" id="-2"><p><a href="http://www.cnblogs.com/wesky/p/7593115.html" target="_blank" rel="noopener">在微信小程序中使用阿里图标</a></p>
+<p><blockquote class="default"> ①下载图标 </blockquote><br><img src="/小程序/2018/10/16/wxapp-food/iconfont.png" title="[下载图标]"></p>
+<p><blockquote class="default"> ②转换iconfont.ttf文件 </blockquote></p>
+<p><div class="note info"><p>小程序的wxss文件的font-face的url不接受http地址作为参数,但可以接受base64,因此需将字体文件下载后,转换为base64。用网址<a href="https://transfonter.org/转换" target="_blank" rel="noopener">https://transfonter.org/转换</a></p></div><br><img src="/小程序/2018/10/16/wxapp-food/ttf.png" title="[转换ttf文件]"></p>
+<p><blockquote class="default"> ③将文件放进微信小程序</blockquote></p>
+<p><div class="note info"><p>复制iconfont.css中的代码，粘贴至小程序ivew 的dist目录中的icon的index.wxss dist/icon/index.wxss，这样就可以使用iview的方式使用阿里图标了</p></div><br><img src="/小程序/2018/10/16/wxapp-food/addicon.png" title="[添加图标]"></p>
+<p><blockquote class="default"> ④界面（wxml）中引用：</blockquote><br><code>&lt;i-icon class=&#39;wicon&#39; type=&quot;iconfont icon-nv&quot; size=&#39;24&#39;  color=&quot;white&quot; /&gt;</code></p>
 </div></div></div>
+<h2 id="项目结构"><a href="#项目结构" class="headerlink" title="项目结构"></a>项目结构</h2><p>项目主要分为首页(home)、搜索(search)、详情(entry)三个页面<br><div class="note info"><p>点击搜索按钮将home页面的input文本域的值跨页面传到search页面，在search判断搜索值是否为空，为空则弹出提示，不为空则直接搜索，并返回食物列表，然后点击进入食物营养成分的详情页面。</p></div></p>
+<h2 id="域名备案"><a href="#域名备案" class="headerlink" title="域名备案"></a>域名备案</h2><p>腾讯云申请云服务器和域名<br><div class="note info"><p>下载ssl证书<a href="https://cloud.tencent.com/document/product/400/8422" target="_blank" rel="noopener">教程</a></p></div></p>
+<h2 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h2><p>在小程序后台的设置-开发设置中绑定备案的域名</p>
+<img src="/小程序/2018/10/16/wxapp-food/addname.png" title="[绑定域名]">
+<div class="note primary"><p>然后在开发工具中上传代码，上传后就是开发版本，将开发版本提交审核通过后就发布了线上版本，在微信中就可以搜索到开发版的小程序了。</p></div>
+<img src="/小程序/2018/10/16/wxapp-food/shangxian.png" title="[上线]">
 <hr>
 <blockquote class="blockquote-center"> <strong>后台开发</strong> </blockquote>
 
@@ -529,7 +544,7 @@
   <p><span style="color:black">本文标题:</span><a href="/小程序/2018/10/16/wxapp-food/">微信小程序-食物营养成分查询的实现</a></p>
   <p><span style="color:black">文章作者:</span><a href="/" title="访问 HHN 的个人博客">HHN</a></p>
   <p><span style="color:black">发布时间:</span>2018年10月16日 - 16:10</p>
-  <p><span style="color:black">最后更新:</span>2018年10月17日 - 20:10</p>
+  <p><span style="color:black">最后更新:</span>2018年10月17日 - 21:10</p>
   <p><span style="color:black">原始链接:</span><a href="/小程序/2018/10/16/wxapp-food/" title="微信小程序-食物营养成分查询的实现">https://weixiaorensheng.github.io/小程序/2018/10/16/wxapp-food/</a>
     <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://weixiaorensheng.github.io/小程序/2018/10/16/wxapp-food/"  aria-label="复制成功！"></i></span>
   </p>
@@ -638,6 +653,10 @@
 
           <div class="post-nav-prev post-nav-item">
             
+              <a href="/字体-font/2018/10/17/font/" rel="prev" title="web字体使用">
+                web字体使用 <i class="fa fa-chevron-right"></i>
+              </a>
+            
           </div>
         </div>
       
@@ -724,7 +743,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -735,7 +754,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">8</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -746,7 +765,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -858,7 +877,7 @@ show_date_time();
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-开始"><span class="nav-number">1.</span> <span class="nav-text">1.开始</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#起步-（小程序官方文档）"><span class="nav-number">1.1.</span> <span class="nav-text">起步 （小程序官方文档）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码构成"><span class="nav-number">1.2.</span> <span class="nav-text">代码构成</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#微信小程序中就四种类型的文件"><span class="nav-number">1.2.0.1.</span> <span class="nav-text">微信小程序中就四种类型的文件</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-开发"><span class="nav-number">2.</span> <span class="nav-text">2.开发</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#功能"><span class="nav-number">2.1.</span> <span class="nav-text">功能</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-框架"><span class="nav-number">2.2.</span> <span class="nav-text">1.框架</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#"><span class="nav-number">2.2.0.1.</span> <span class="nav-text">**</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#1、配置apache"><span class="nav-number">3.</span> <span class="nav-text">1、配置apache</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-开始"><span class="nav-number">1.</span> <span class="nav-text">1.开始</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#起步-（小程序官方文档）"><span class="nav-number">1.1.</span> <span class="nav-text">起步 （小程序官方文档）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码构成"><span class="nav-number">1.2.</span> <span class="nav-text">代码构成</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#微信小程序中就四种类型的文件"><span class="nav-number">1.2.0.1.</span> <span class="nav-text">微信小程序中就四种类型的文件</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-开发"><span class="nav-number">2.</span> <span class="nav-text">2.开发</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#功能"><span class="nav-number">2.1.</span> <span class="nav-text">功能</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#框架"><span class="nav-number">2.2.</span> <span class="nav-text">框架</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#框架图标"><span class="nav-number">2.2.0.1.</span> <span class="nav-text">框架图标</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#项目结构"><span class="nav-number">2.3.</span> <span class="nav-text">项目结构</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#域名备案"><span class="nav-number">2.4.</span> <span class="nav-text">域名备案</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#绑定域名"><span class="nav-number">2.5.</span> <span class="nav-text">绑定域名</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#1、配置apache"><span class="nav-number">3.</span> <span class="nav-text">1、配置apache</span></a></li></ol></div>
             
 
           </div>
@@ -892,7 +911,7 @@ show_date_time();
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">9.6k</span>
+    <span title="Site words total count">10.1k</span>
   
 </div>
 
@@ -1573,7 +1592,7 @@ show_date_time();
     "/images/bg.png",
     "/images/bg.jpg",
     "/images/bg_cat.jpg",
-	"/images/bgimg/bg_cat.05"
+	"/images/bgimg/bg_05.jpg"
   ], {duration: 4000,fade: 500});
   //https://github.com/jquery-backstretch/jquery-backstretch
   </script>

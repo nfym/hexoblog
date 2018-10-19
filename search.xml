@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[web字体使用]]></title>
+    <url>%2F%E5%AD%97%E4%BD%93-font%2F2018%2F10%2F17%2Ffont%2F</url>
+    <content type="text"><![CDATA[中文字体 web中文字体应用指南 摘要字体声明 同时声明中文字体的字体名称（英文）和显示名称（中文） 永远不要忘记声明英文字体，并且英文字体应该在中文字体之前 中文字体网页开发指南 英文字体字体笔记]]></content>
+      <categories>
+        <category>字体 font</category>
+      </categories>
+      <tags>
+        <tag>字体</tag>
+        <tag>font</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[微信小程序-食物营养成分查询的实现]]></title>
     <url>%2F%E5%B0%8F%E7%A8%8B%E5%BA%8F%2F2018%2F10%2F16%2Fwxapp-food%2F</url>
-    <content type="text"><![CDATA[小程序页面开发 1.开始起步 （小程序官方文档） 申请账号&emsp;&emsp;点击 https://mp.weixin.qq.com/wxopen/waregister?action=step1 根据指引填写信息和提交相应的资料，就可以拥有自己的小程序帐号。登录 https://mp.weixin.qq.com ，我们可以在菜单 “设置”-“开发设置” 看到小程序的 AppID 了 。 安装开发工具 &emsp;&emsp;前往 开发者工具下载页面 ，根据自己的操作系统下载对应的安装包进行安装，有关开发者工具更详细的介绍可以查看 《开发者工具介绍》 。打开小程序开发者工具，用微信扫码登录开发者工具，就可以开始开发了。 代码构成微信小程序中就四种类型的文件 js ———— JavaScrip文件 json ——— 项目配置文件，负责窗口颜色等等 wxml ——– 类似HTML文件 wxss ——— 类似CSS文件 2.开发功能通过搜索食物名查询食物营养 1.框架** UI框架 ———— iView Weapp 图标 ——— 阿里图标图iconfont iViewiconfont到 GitHub 下载 iView Weapp 的代码，将 dist 目录拷贝到自己的项目中。 微信小程序使用阿里图标 后台开发 1、配置apache]]></content>
+    <content type="text"><![CDATA[小程序页面开发 1.开始起步 （小程序官方文档） 申请账号&emsp;&emsp;点击 https://mp.weixin.qq.com/wxopen/waregister?action=step1 根据指引填写信息和提交相应的资料，就可以拥有自己的小程序帐号。登录 https://mp.weixin.qq.com ，我们可以在菜单 “设置”-“开发设置” 看到小程序的 AppID 了 。 安装开发工具 &emsp;&emsp;前往 开发者工具下载页面 ，根据自己的操作系统下载对应的安装包进行安装，有关开发者工具更详细的介绍可以查看 《开发者工具介绍》 。打开小程序开发者工具，用微信扫码登录开发者工具，就可以开始开发了。 代码构成微信小程序中就四种类型的文件 js ———— JavaScrip文件 json ——— 项目配置文件，负责窗口颜色等等 wxml ——– 类似HTML文件 wxss ——— 类似CSS文件 2.开发功能通过搜索食物名查询食物营养 框架框架图标 UI框架 ———— iView Weapp 图标 ——— 阿里图标图iconfont iViewiconfont到 GitHub 下载 iView Weapp 的代码，将 dist 目录拷贝到自己的项目中。 在微信小程序中使用阿里图标 ①下载图标 ②转换iconfont.ttf文件 小程序的wxss文件的font-face的url不接受http地址作为参数,但可以接受base64,因此需将字体文件下载后,转换为base64。用网址https://transfonter.org/转换 ③将文件放进微信小程序 复制iconfont.css中的代码，粘贴至小程序ivew 的dist目录中的icon的index.wxss dist/icon/index.wxss，这样就可以使用iview的方式使用阿里图标了 ④界面（wxml）中引用：&lt;i-icon class=&#39;wicon&#39; type=&quot;iconfont icon-nv&quot; size=&#39;24&#39; color=&quot;white&quot; /&gt; 项目结构项目主要分为首页(home)、搜索(search)、详情(entry)三个页面点击搜索按钮将home页面的input文本域的值跨页面传到search页面，在search判断搜索值是否为空，为空则弹出提示，不为空则直接搜索，并返回食物列表，然后点击进入食物营养成分的详情页面。 域名备案腾讯云申请云服务器和域名下载ssl证书教程 绑定域名在小程序后台的设置-开发设置中绑定备案的域名 然后在开发工具中上传代码，上传后就是开发版本，将开发版本提交审核通过后就发布了线上版本，在微信中就可以搜索到开发版的小程序了。 后台开发 1、配置apache]]></content>
       <categories>
         <category>小程序</category>
       </categories>
@@ -49,7 +61,7 @@
   <entry>
     <title><![CDATA[location]]></title>
     <url>%2Fcss%E5%AE%9A%E4%BD%8D%2F2018%2F09%2F23%2Flocation%2F</url>
-    <content type="text"><![CDATA[优秀的人，不是不合群，而是他们合群的人里没有你 支持 MarkdownHexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。 一件部署只需一条指令即可部署到 GitHub Pages，或其他网站。 丰富的插件Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade，CoffeeScript。 var options = {"narrow":false,"autoplay":false,"showlrc":3,"mutex":true,"music":[{"title":"歌曲名","author":"歌手名","url":"https://什么什么什么.mp3","pic":"https://封面图.jpg","lrc":"https://歌词.lrc"},{"title":"歌曲名","author":"歌手名","url":"https://什么什么什么.mp3","pic":"https://封面图.jpg","lrc":"https://歌词.lrc"}]}; options.element = document.getElementById("aplayer-XVvWdaNt"); var ap = new APlayer(options); window.aplayers || (window.aplayers = []); window.aplayers.push(ap); codejs隐藏与显示回到顶部按钮12345678window.onscroll = function () &#123; if (document.documentElement.scrollTop + document.body.scrollTop &gt; 100) &#123; document.getElementById("scrollto").style.display = "block"; &#125; else &#123; document.getElementById("scrollto").style.display = "none"; &#125; &#125;]]></content>
+    <content type="text"><![CDATA[优秀的人，不是不合群，而是他们合群的人里没有你 支持 MarkdownHexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。 一件部署只需一条指令即可部署到 GitHub Pages，或其他网站。 丰富的插件Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade，CoffeeScript。 var options = {"narrow":false,"autoplay":false,"showlrc":3,"mutex":true,"music":[{"title":"歌曲名","author":"歌手名","url":"https://什么什么什么.mp3","pic":"https://封面图.jpg","lrc":"https://歌词.lrc"},{"title":"歌曲名","author":"歌手名","url":"https://什么什么什么.mp3","pic":"https://封面图.jpg","lrc":"https://歌词.lrc"}]}; options.element = document.getElementById("aplayer-vdOdnFmu"); var ap = new APlayer(options); window.aplayers || (window.aplayers = []); window.aplayers.push(ap); codejs隐藏与显示回到顶部按钮12345678window.onscroll = function () &#123; if (document.documentElement.scrollTop + document.body.scrollTop &gt; 100) &#123; document.getElementById("scrollto").style.display = "block"; &#125; else &#123; document.getElementById("scrollto").style.display = "none"; &#125; &#125;]]></content>
       <categories>
         <category>css定位</category>
       </categories>
