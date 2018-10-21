@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Git Bash使用]]></title>
+    <url>%2Fgit%2F2018%2F10%2F19%2Fgit%2F</url>
+    <content type="text"><![CDATA[git创建版本库时 没有在文件夹下自动生成.git文件夹 创建版本库什么是版本库？版本库又名仓库，英文名repository,你可以简单的理解一个目录，这个目录里面的所有文件都可以被Git管理起来，每个文件的修改，删除，Git都能跟踪，以便任何时刻都可以追踪历史，或者在将来某个时刻还可以将文件”还原”。 通过命令 git init 把某个目录变成git可以管理的仓库，如下：在F盘右键Git Bash然后创建testgit文件夹进入testgit文件夹然后 Git init 这时候你当前testgit目录下会多了一个.git的目录，这个目录是Git来跟踪管理版本的，没事千万不要手动乱改这个目录里面的文件，否则，会把git仓库给破坏了。但是.git文件夹默认为隐藏属性，因此需要通过设置系统属性，才能看到这个文件夹：具体方法不同版本操作系统设置不一。我的是win10系统，将 ‘隐藏的项目’ 勾选就好了]]></content>
+      <categories>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[web字体使用]]></title>
     <url>%2F%E5%AD%97%E4%BD%93-font%2F2018%2F10%2F17%2Ffont%2F</url>
     <content type="text"><![CDATA[中文字体 web中文字体应用指南 摘要字体声明 同时声明中文字体的字体名称（英文）和显示名称（中文） 永远不要忘记声明英文字体，并且英文字体应该在中文字体之前 中文字体网页开发指南 英文字体字体笔记]]></content>
@@ -25,20 +36,23 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[选择器]]></title>
+    <title><![CDATA[jquery选择器]]></title>
     <url>%2Fcss-js%2F2018%2F10%2F15%2Fselect%2F</url>
     <content type="text"><![CDATA[]]></content>
       <categories>
         <category>css js</category>
       </categories>
       <tags>
-        <tag>css, js</tag>
+        <tag>css</tag>
+        <tag>js</tag>
+        <tag>选择器</tag>
+        <tag>过滤器</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[hexo博客文章编写使用示例]]></title>
     <url>%2Fhexo-%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99%E5%B8%B8%E7%94%A8%2F2018%2F10%2F07%2Fusehexo%2F</url>
-    <content type="text"><![CDATA[图片1&lt;img src="/images/bg.png" /&gt; 1.在站点配置文件_config.yml中将post_asset_folder设置为true 即：1post_asset_folder:true 2.在hexo的目录下执行 1npm install https://github.com/CodeFalling/hexo-asset-image --save 3.安装完成&emsp;&emsp;完成安装后用hexo新建文章的时候会发现_posts目录下面会多出一个和文章名字一样的文件夹。 4.插入图片通过相对路径标签引用资源，而不是markdown语法引用。123&#123;% asset_img pic04.jpg [测试成功] %&#125;![测试失败](/usehexo/pic04.jpg)&lt;img src="/usehexo/pic04.jpg" alt="测试失败" /&gt; tips:博客source下的自建图片文件夹themes\boke\source\images(文章开头第一张背景图就放在了自建文件夹里)next主题的图片文件夹themes\boke\theme\next\source\images 文章阅读更多1&lt;!--more--&gt; 居中1&lt;blockquote class="blockquote-center"&gt;居中&lt;/blockquote&gt; 居中 音乐12345678910111213141516171819202122232425&lt;iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&amp;id=2321407097&amp;auto=1&amp;height=430"&gt;&lt;/iframe&gt;&#123;% aplayerlist %&#125;&#123; "autoplay": false, "showlrc": 3, "mutex": true, "music": [ &#123; "title": "PLANET", "author": "ラムジ", "url": "https://music.163.com/#/song?id=812400", "pic": "https://封面图.jpg", "lrc": "https://歌词.lrc" &#125;, &#123; "title": "起风了（Cover 高橋優", "author": "歌手名", "url": "https://music.163.com/#/song?id=461525011", "pic": "https://封面图.jpg", "lrc": "https://歌词.lrc" &#125; ]&#125;&#123;% endaplayerlist %&#125; 123&#123;% note danger %&#125; Content (md partial supported) &#123;% endnote %&#125;&lt;div class="note default"&gt;&lt;p&gt;default default primary success info warning danger&lt;/p&gt;&lt;/div&gt;&#123;% label default@default %&#125; Content (md partial supported) default default primary success info warning dangerdefault tab选项卡1234567891011&#123;% tabs 选项卡, 2 %&#125;&lt;!-- tab --&gt;**这是选项卡 1**&lt;!-- endtab --&gt;&lt;!-- tab --&gt;**这是选项卡 2**&lt;!-- endtab --&gt;&lt;!-- tab --&gt;**这是选项卡 3**&lt;!-- endtab --&gt;&#123;% endtabs %&#125; tabs选项卡 1选项卡 2选项卡 3这是选项卡 1 这是选项卡 2 这是选项卡 3 123456789101112&gt; 引用&lt;blockquote class="danger"&gt; 引用&lt;/blockquote&gt;&lt;blockquote class="default"&gt; 引用&lt;/blockquote&gt;&lt;blockquote class="blockquote-center"&gt;居中&lt;/blockquote&gt;&#123;% cq %&#125;人生乃是一面镜子，从镜子里认识自己，我要称之为头等大事，也只是我们追求的目的！&#123;% endcq %&#125; 引用 引用 引用 居中 居中 人生乃是一面镜子，从镜子里认识自己，我要称之为头等大事，也只是我们追求的目的！ 图标 支持 MarkdownHexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。 一件部署只需一条指令即可部署到 GitHub Pages，或其他网站。 丰富的插件Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade，CoffeeScript。 铅笔 上传 下载 下载 下载变大 33% 下载两倍大 1.]]></content>
+    <content type="text"><![CDATA[图片1&lt;img src="/images/bg.png" /&gt; 1.在站点配置文件_config.yml中将post_asset_folder设置为true 即：1post_asset_folder:true 2.在hexo的目录下执行 1npm install https://github.com/CodeFalling/hexo-asset-image --save 3.安装完成&emsp;&emsp;完成安装后用hexo新建文章的时候会发现_posts目录下面会多出一个和文章名字一样的文件夹。 4.插入图片通过相对路径标签引用资源，而不是markdown语法引用。123&#123;% asset_img pic04.jpg [测试成功] %&#125;![测试失败](/usehexo/pic04.jpg)&lt;img src="/usehexo/pic04.jpg" alt="测试失败" /&gt; tips:博客source下的自建图片文件夹themes\boke\source\images(本篇文章开头第一张背景图就放在了自建文件夹里)next主题的图片文件夹themes\boke\theme\next\source\images两个图片文件夹的访问方式相同 ： /images/图片名/，将图片放在任一文件夹都可以。 文章阅读更多1&lt;!--more--&gt; 居中1&lt;blockquote class="blockquote-center"&gt;居中&lt;/blockquote&gt; 居中 音乐12345678910111213141516171819202122232425&lt;iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&amp;id=2321407097&amp;auto=1&amp;height=430"&gt;&lt;/iframe&gt;&#123;% aplayerlist %&#125;&#123; "autoplay": false, "showlrc": 3, "mutex": true, "music": [ &#123; "title": "PLANET", "author": "ラムジ", "url": "https://music.163.com/#/song?id=812400", "pic": "https://封面图.jpg", "lrc": "https://歌词.lrc" &#125;, &#123; "title": "起风了（Cover 高橋優", "author": "歌手名", "url": "https://music.163.com/#/song?id=461525011", "pic": "https://封面图.jpg", "lrc": "https://歌词.lrc" &#125; ]&#125;&#123;% endaplayerlist %&#125; 123&#123;% note danger %&#125; Content (md partial supported) &#123;% endnote %&#125;&lt;div class="note default"&gt;&lt;p&gt;default default primary success info warning danger&lt;/p&gt;&lt;/div&gt;&#123;% label default@default %&#125; Content (md partial supported) default default primary success info warning dangerdefault tab选项卡1234567891011&#123;% tabs 选项卡, 2 %&#125;&lt;!-- tab --&gt;**这是选项卡 1**&lt;!-- endtab --&gt;&lt;!-- tab --&gt;**这是选项卡 2**&lt;!-- endtab --&gt;&lt;!-- tab --&gt;**这是选项卡 3**&lt;!-- endtab --&gt;&#123;% endtabs %&#125; tabs选项卡 1选项卡 2选项卡 3这是选项卡 1 这是选项卡 2 这是选项卡 3 123456789101112&gt; 引用&lt;blockquote class="danger"&gt; 引用&lt;/blockquote&gt;&lt;blockquote class="default"&gt; 引用&lt;/blockquote&gt;&lt;blockquote class="blockquote-center"&gt;居中&lt;/blockquote&gt;&#123;% cq %&#125;人生乃是一面镜子，从镜子里认识自己，我要称之为头等大事，也只是我们追求的目的！&#123;% endcq %&#125; 引用 引用 引用 居中 居中 人生乃是一面镜子，从镜子里认识自己，我要称之为头等大事，也只是我们追求的目的！ 图标 支持 MarkdownHexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。 一件部署只需一条指令即可部署到 GitHub Pages，或其他网站。 丰富的插件Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade，CoffeeScript。 铅笔 上传 下载 下载 下载变大 33% 下载两倍大 1.]]></content>
       <categories>
         <category>hexo 博客编写常用</category>
       </categories>
@@ -61,7 +75,7 @@
   <entry>
     <title><![CDATA[location]]></title>
     <url>%2Fcss%E5%AE%9A%E4%BD%8D%2F2018%2F09%2F23%2Flocation%2F</url>
-    <content type="text"><![CDATA[优秀的人，不是不合群，而是他们合群的人里没有你 支持 MarkdownHexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。 一件部署只需一条指令即可部署到 GitHub Pages，或其他网站。 丰富的插件Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade，CoffeeScript。 var options = {"narrow":false,"autoplay":false,"showlrc":3,"mutex":true,"music":[{"title":"歌曲名","author":"歌手名","url":"https://什么什么什么.mp3","pic":"https://封面图.jpg","lrc":"https://歌词.lrc"},{"title":"歌曲名","author":"歌手名","url":"https://什么什么什么.mp3","pic":"https://封面图.jpg","lrc":"https://歌词.lrc"}]}; options.element = document.getElementById("aplayer-vdOdnFmu"); var ap = new APlayer(options); window.aplayers || (window.aplayers = []); window.aplayers.push(ap); codejs隐藏与显示回到顶部按钮12345678window.onscroll = function () &#123; if (document.documentElement.scrollTop + document.body.scrollTop &gt; 100) &#123; document.getElementById("scrollto").style.display = "block"; &#125; else &#123; document.getElementById("scrollto").style.display = "none"; &#125; &#125;]]></content>
+    <content type="text"><![CDATA[优秀的人，不是不合群，而是他们合群的人里没有你 支持 MarkdownHexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。 一件部署只需一条指令即可部署到 GitHub Pages，或其他网站。 丰富的插件Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade，CoffeeScript。 var options = {"narrow":false,"autoplay":false,"showlrc":3,"mutex":true,"music":[{"title":"歌曲名","author":"歌手名","url":"https://什么什么什么.mp3","pic":"https://封面图.jpg","lrc":"https://歌词.lrc"},{"title":"歌曲名","author":"歌手名","url":"https://什么什么什么.mp3","pic":"https://封面图.jpg","lrc":"https://歌词.lrc"}]}; options.element = document.getElementById("aplayer-ucbesWsw"); var ap = new APlayer(options); window.aplayers || (window.aplayers = []); window.aplayers.push(ap); codejs隐藏与显示回到顶部按钮12345678window.onscroll = function () &#123; if (document.documentElement.scrollTop + document.body.scrollTop &gt; 100) &#123; document.getElementById("scrollto").style.display = "block"; &#125; else &#123; document.getElementById("scrollto").style.display = "none"; &#125; &#125;]]></content>
       <categories>
         <category>css定位</category>
       </categories>
