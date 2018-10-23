@@ -94,9 +94,9 @@
     <link href="https://weixiaorensheng.github.io/css-js/2018/10/15/select/"/>
     <id>https://weixiaorensheng.github.io/css-js/2018/10/15/select/</id>
     <published>2018-10-15T11:56:47.000Z</published>
-    <updated>2018-10-19T13:05:34.199Z</updated>
+    <updated>2018-10-23T08:44:48.649Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>jQuery 事件 - ready() 方法<br>jQuery 事件参考手册</p><p>实例<br>在文档加载后激活函数：</p><p>$(document).ready(function(){<br>  $(“.btn1”).click(function(){<br>    $(“p”).slideToggle();<br>  });<br>});<br>亲自试一试<br>定义和用法<br>当 DOM（文档对象模型） 已经加载，并且页面（包括图像）已经完全呈现时，会发生 ready 事件。</p><p>由于该事件在文档就绪后发生，因此把所有其他的 jQuery 事件和函数置于该事件中是非常好的做法。正如上面的例子中那样。</p><p>ready() 函数规定当 ready 事件发生时执行的代码。</p><p>ready() 函数仅能用于当前文档，因此无需选择器。</p><p>允许使用以下三种语法：</p><p>语法 1<br>$(document).ready(function)<br>语法 2<br>$().ready(function)<br>语法 3<br>$(function)<br>参数    描述<br>function    必需。规定当文档加载后要运行的函数。<br>提示和注释<br>提示：ready() 函数不应与 <body onload=""> 一起使用。</body></p>]]></content>
     
     <summary type="html">
     
