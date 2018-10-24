@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://weixiaorensheng.github.io/"/>
-  <updated>2018-10-23T13:10:22.382Z</updated>
+  <updated>2018-10-24T12:16:12.242Z</updated>
   <id>https://weixiaorensheng.github.io/</id>
   
   <author>
@@ -17,9 +17,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>deploypage</title>
+    <link href="https://weixiaorensheng.github.io/deploypage.html"/>
+    <id>https://weixiaorensheng.github.io/deploypage.html</id>
+    <published>2018-10-24T07:19:08.000Z</published>
+    <updated>2018-10-24T12:16:12.242Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="使用github免费部署静态网站"><a href="#使用github免费部署静态网站" class="headerlink" title="使用github免费部署静态网站"></a>使用github免费部署静态网站</h2><p><blockquote class="default">默认git已安装，ssh已配置。</blockquote><br><a id="more"></a></p><h2 id="创建仓库"><a href="#创建仓库" class="headerlink" title="创建仓库"></a>创建仓库</h2><p>新建仓库Repository，填写仓库的名字，勾选public和Initalize this repository with a README.并点击创建。<br><img src="/deploypage/create.png" title="[创建仓库]"></p><p>仓库创建好后点击setting<br><img src="/deploypage/setting.png" title="[setting]"><br>然后下划找到github pages，选择master branch，然后点击save按钮保存。<br><img src="/deploypage/master.png" title="[master]"><br>保存后出现的链接就是静态页面的预览地址，网页内容是默认的readme文件<br><img src="/deploypage/site.png" title="[site]"></p><h2 id="网站上传"><a href="#网站上传" class="headerlink" title="网站上传"></a>网站上传</h2><p>先下载创建好的仓库到本地(open in desktop需要下载桌面版，建议使用这个)<br><img src="/deploypage/download.png" title="[download]"><br>点击clone下载</p><img src="/deploypage/clone.png" title="[clone]"><p>然后复制自己项目的项目到仓库文件夹中，然后commit<br><img src="/deploypage/commit.png" title="[commit]"><br>完成，接下来就可以通过链接访问网站了</p><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><div class="note warning"><p>&emsp;&emsp;默认将index.html页面当做初始界面，如果将index.html放入目录结构中，部署发布后，github会再自动生成一个index.html页面，会出现更新无效等情况。还有params.json会配置github给你生成的模板信息。</p></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;使用github免费部署静态网站&quot;&gt;&lt;a href=&quot;#使用github免费部署静态网站&quot; class=&quot;headerlink&quot; title=&quot;使用github免费部署静态网站&quot;&gt;&lt;/a&gt;使用github免费部署静态网站&lt;/h2&gt;&lt;p&gt;&lt;blockquote class=&quot;default&quot;&gt;默认git已安装，ssh已配置。&lt;/blockquote&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="在github上部署静态网站" scheme="https://weixiaorensheng.github.io/categories/%E5%9C%A8github%E4%B8%8A%E9%83%A8%E7%BD%B2%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99/"/>
+    
+    
+      <category term="github deploy" scheme="https://weixiaorensheng.github.io/tags/github-deploy/"/>
+    
+  </entry>
+  
+  <entry>
     <title>google_debug</title>
-    <link href="https://weixiaorensheng.github.io/debug/2018/10/23/google-debug/"/>
-    <id>https://weixiaorensheng.github.io/debug/2018/10/23/google-debug/</id>
+    <link href="https://weixiaorensheng.github.io/google-debug.html"/>
+    <id>https://weixiaorensheng.github.io/google-debug.html</id>
     <published>2018-10-23T12:48:32.000Z</published>
     <updated>2018-10-23T13:10:22.382Z</updated>
     
@@ -43,8 +65,8 @@
   
   <entry>
     <title>Git Bash使用</title>
-    <link href="https://weixiaorensheng.github.io/git/2018/10/19/git/"/>
-    <id>https://weixiaorensheng.github.io/git/2018/10/19/git/</id>
+    <link href="https://weixiaorensheng.github.io/git.html"/>
+    <id>https://weixiaorensheng.github.io/git.html</id>
     <published>2018-10-19T13:34:33.000Z</published>
     <updated>2018-10-22T07:38:26.651Z</updated>
     
@@ -65,8 +87,8 @@
   
   <entry>
     <title>web字体使用</title>
-    <link href="https://weixiaorensheng.github.io/%E5%AD%97%E4%BD%93-font/2018/10/17/font/"/>
-    <id>https://weixiaorensheng.github.io/字体-font/2018/10/17/font/</id>
+    <link href="https://weixiaorensheng.github.io/font.html"/>
+    <id>https://weixiaorensheng.github.io/font.html</id>
     <published>2018-10-17T14:18:13.000Z</published>
     <updated>2018-10-17T14:38:41.594Z</updated>
     
@@ -92,8 +114,8 @@
   
   <entry>
     <title>微信小程序-食物营养成分查询的实现</title>
-    <link href="https://weixiaorensheng.github.io/%E5%B0%8F%E7%A8%8B%E5%BA%8F/2018/10/16/wxapp-food/"/>
-    <id>https://weixiaorensheng.github.io/小程序/2018/10/16/wxapp-food/</id>
+    <link href="https://weixiaorensheng.github.io/wxapp-food.html"/>
+    <id>https://weixiaorensheng.github.io/wxapp-food.html</id>
     <published>2018-10-16T08:21:09.000Z</published>
     <updated>2018-10-21T12:58:37.526Z</updated>
     
@@ -116,8 +138,8 @@
   
   <entry>
     <title>jquery选择器</title>
-    <link href="https://weixiaorensheng.github.io/css-js/2018/10/15/select/"/>
-    <id>https://weixiaorensheng.github.io/css-js/2018/10/15/select/</id>
+    <link href="https://weixiaorensheng.github.io/select.html"/>
+    <id>https://weixiaorensheng.github.io/select.html</id>
     <published>2018-10-15T11:56:47.000Z</published>
     <updated>2018-10-23T08:44:48.649Z</updated>
     
@@ -147,8 +169,8 @@
   
   <entry>
     <title>hexo博客文章编写使用示例</title>
-    <link href="https://weixiaorensheng.github.io/hexo-%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99%E5%B8%B8%E7%94%A8/2018/10/07/usehexo/"/>
-    <id>https://weixiaorensheng.github.io/hexo-博客编写常用/2018/10/07/usehexo/</id>
+    <link href="https://weixiaorensheng.github.io/usehexo.html"/>
+    <id>https://weixiaorensheng.github.io/usehexo.html</id>
     <published>2018-10-07T13:37:44.000Z</published>
     <updated>2018-10-21T13:13:50.000Z</updated>
     
@@ -171,8 +193,8 @@
   
   <entry>
     <title>HTML文字文本美化效果</title>
-    <link href="https://weixiaorensheng.github.io/HTML/2018/10/05/text/"/>
-    <id>https://weixiaorensheng.github.io/HTML/2018/10/05/text/</id>
+    <link href="https://weixiaorensheng.github.io/text.html"/>
+    <id>https://weixiaorensheng.github.io/text.html</id>
     <published>2018-10-05T13:49:37.000Z</published>
     <updated>2018-10-21T13:05:05.656Z</updated>
     
@@ -193,8 +215,8 @@
   
   <entry>
     <title>location</title>
-    <link href="https://weixiaorensheng.github.io/css%E5%AE%9A%E4%BD%8D/2018/09/23/location/"/>
-    <id>https://weixiaorensheng.github.io/css定位/2018/09/23/location/</id>
+    <link href="https://weixiaorensheng.github.io/location.html"/>
+    <id>https://weixiaorensheng.github.io/location.html</id>
     <published>2018-09-23T14:29:26.000Z</published>
     <updated>2018-10-21T14:32:47.704Z</updated>
     
@@ -218,8 +240,8 @@
   
   <entry>
     <title>css样式</title>
-    <link href="https://weixiaorensheng.github.io/css/2018/09/15/cssstyle/"/>
-    <id>https://weixiaorensheng.github.io/css/2018/09/15/cssstyle/</id>
+    <link href="https://weixiaorensheng.github.io/cssstyle.html"/>
+    <id>https://weixiaorensheng.github.io/cssstyle.html</id>
     <published>2018-09-15T10:21:55.000Z</published>
     <updated>2018-10-21T14:32:31.089Z</updated>
     
@@ -242,8 +264,8 @@
   
   <entry>
     <title>前端进阶之路</title>
-    <link href="https://weixiaorensheng.github.io/%E5%B0%8F%E7%A8%8B%E5%BA%8F/2018/09/11/progress/"/>
-    <id>https://weixiaorensheng.github.io/小程序/2018/09/11/progress/</id>
+    <link href="https://weixiaorensheng.github.io/progress.html"/>
+    <id>https://weixiaorensheng.github.io/progress.html</id>
     <published>2018-09-11T11:59:42.000Z</published>
     <updated>2018-10-21T14:27:23.061Z</updated>
     
@@ -264,8 +286,8 @@
   
   <entry>
     <title>css常用命名</title>
-    <link href="https://weixiaorensheng.github.io/class%E5%91%BD%E5%90%8D/2018/09/10/name/"/>
-    <id>https://weixiaorensheng.github.io/class命名/2018/09/10/name/</id>
+    <link href="https://weixiaorensheng.github.io/name.html"/>
+    <id>https://weixiaorensheng.github.io/name.html</id>
     <published>2018-09-10T08:00:26.000Z</published>
     <updated>2018-10-21T13:30:38.406Z</updated>
     
