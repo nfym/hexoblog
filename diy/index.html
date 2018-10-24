@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+主题配置文件_config.yml中添加对应的menu项，如：
+menu:
+	diy: /diy/ || coffee
+然后在source目录下建立diy文件夹，在diy中添加index.html	
+在index.html中添加
+---
+layout: false
+---
+使得index.html不受当前 hexo 主题影响，完全是一个独立的网页，如果网页引用了 css 或 js ，这些 css 和 js 必须使用外链
+	如果引用图片，可以在网页目录下建立 img 文件夹，可以直接引用图片，不必再去创建外链
+</body>
+</html>

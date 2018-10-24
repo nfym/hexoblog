@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://weixiaorensheng.github.io/about/index.html</loc>
+    
+    <lastmod>2018-10-24T13:03:53.583Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://weixiaorensheng.github.io/deploypage.html</loc>
     
     <lastmod>2018-10-24T12:16:12.242Z</lastmod>
@@ -96,13 +103,6 @@
     <loc>https://weixiaorensheng.github.io/demo/index.html</loc>
     
     <lastmod>2018-10-16T11:58:40.440Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://weixiaorensheng.github.io/about/index.html</loc>
-    
-    <lastmod>2018-10-13T12:02:38.681Z</lastmod>
     
   </url>
   
