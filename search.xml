@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[javascript学习笔记]]></title>
+    <url>%2Fjavascript.html</url>
+    <content type="text"><![CDATA[js代码开头分号这个是防止报错的，因为我们的js代码结束都需要加一个;，其实不加也没有问题的，在做一些前端自动化时会对文件进行合并，也就是说可能会有另一个js文件加到你的文件前面。这样也不会有什么问题，因为有换行。如果再进行压缩就可能出事了，换行和空格都会被去掉。如果你前一个文件最后没有加; 它的内容就会下一个文件连到一起。就会造成方法错误。如果你在你的文件前面加一个;合并压缩时就相当时强制在你前面的一个文件最后加了一个;让他的结束掉就不会影响到你的文件了。就算他最后加了;加上你这个就会出现两;在一起，这样也不会报错。 立即调用函数表达式(function(){}())与(function(){})()IIFE通常的函数声明和调用分开的写法如下： function foo() {/…/} // 这是定义，Declaration；定义只是让解释器知道其存在，但是不会运行。 foo(); // 这是语句，Statement；解释器遇到语句是会运行它的。 普通的函数声明function foo(){}是不会执行的。这里如果直接这样写function foo(){}()解释器会报错的，因为是错误的语法。IIFE函数的调用方式通常是将函数表达式、它的调用操作符、分组操作符放到一个括号内，来告诉解释器这里有一个需要立即执行的函数。否则通常情况下，解析器遇到一个function关键字，都会把它当做是一个函数声明，而不是函数表达式。如下几种写法都是可以的： (function foo(){/…/}()); (function foo(){/…/})(); !function foo() {/…/}(); +function foo() {/…/}(); -function foo() {/…/}(); ~function foo() {/…/}(); 在需要表达式的场景下，就不需要用括号括起来了： void function(){/…/}(); var foo = function(){/…/}(); true &amp;&amp; function () { /…/ }(); 0, function () { /…/ }(); void声明了不需要返回值，第二个则将IIFE函数的返回值赋给了foo。第三、第四个都是明确需要表达式的场景，所以解析器会认识这种写法。 对于IIFE函数，也可以给它们传入参数，例如： (function foo(arg1,arg2,…){…}(param1,param2,…));1对于常见的(function($){…})(jQuery);即是将实参jQuery传入函数function($){}，通过形参$接收。上述函数中，最开始的那个括号，可能会由于js中自动分号插入机制而引发问题。例如： a = b + c;（function （） { // code}）（）; 如果没有第二行的分号，那么该处有可能被解析为c()而开始执行。所以有的时候，可能会看到这样的写法：;(function foo(){/…/}())，前边的分号可以认为是防御型分号。]]></content>
+      <tags>
+        <tag>js</tag>
+        <tag>javascript</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[deploypage]]></title>
     <url>%2Fdeploypage.html</url>
     <content type="text"><![CDATA[使用github免费部署静态网站默认git已安装，ssh已配置。 创建仓库新建仓库Repository，填写仓库的名字，勾选public和Initalize this repository with a README.并点击创建。 仓库创建好后点击setting然后下划找到github pages，选择master branch，然后点击save按钮保存。保存后出现的链接就是静态页面的预览地址，网页内容是默认的readme文件 网站上传先下载创建好的仓库到本地(open in desktop需要下载桌面版，建议使用这个)点击clone下载 然后复制自己项目的项目到仓库文件夹中，然后commit完成，接下来就可以通过链接访问网站了 注意&emsp;&emsp;默认将index.html页面当做初始界面，如果将index.html放入目录结构中，部署发布后，github会再自动生成一个index.html页面，会出现更新无效等情况。还有params.json会配置github给你生成的模板信息。]]></content>
@@ -61,7 +70,7 @@
   <entry>
     <title><![CDATA[jquery选择器]]></title>
     <url>%2Fselect.html</url>
-    <content type="text"><![CDATA[jQuery 事件 - ready() 方法jQuery 事件参考手册 实例在文档加载后激活函数： $(document).ready(function(){ $(“.btn1”).click(function(){ $(“p”).slideToggle(); });});亲自试一试定义和用法当 DOM（文档对象模型） 已经加载，并且页面（包括图像）已经完全呈现时，会发生 ready 事件。 由于该事件在文档就绪后发生，因此把所有其他的 jQuery 事件和函数置于该事件中是非常好的做法。正如上面的例子中那样。 ready() 函数规定当 ready 事件发生时执行的代码。 ready() 函数仅能用于当前文档，因此无需选择器。 允许使用以下三种语法： 语法 1$(document).ready(function)语法 2$().ready(function)语法 3$(function)参数 描述function 必需。规定当文档加载后要运行的函数。提示和注释提示：ready() 函数不应与 一起使用。]]></content>
+    <content type="text"><![CDATA[jQuery 事件 - ready() 方法 在文档加载后激活函数： 定义和用法当 DOM（文档对象模型） 已经加载，并且页面（包括图像）已经完全呈现时，会发生 ready 事件。 由于该事件在文档就绪后发生，因此把所有其他的 jQuery 事件和函数置于该事件中是非常好的做法。正如上面的例子中那样。 ready() 函数规定当 ready 事件发生时执行的代码。 ready() 函数仅能用于当前文档，因此无需选择器。 允许使用以下三种语法： 语法 1$(document).ready(function)语法 2$().ready(function)语法 3$(function)参数 描述function 必需。规定当文档加载后要运行的函数。提示和注释提示：ready() 函数不应与 一起使用。]]></content>
       <categories>
         <category>css js</category>
       </categories>

@@ -114,13 +114,13 @@
 <meta property="og:site_name" content="HHN">
 <meta property="og:description" content="Git 与 SVN 区别">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://weixiaorensheng.github.io/git/2018/10/19/git/init.png">
-<meta property="og:image" content="https://weixiaorensheng.github.io/git/2018/10/19/git/hide.png">
+<meta property="og:image" content="https://weixiaorensheng.github.io/git/init.png">
+<meta property="og:image" content="https://weixiaorensheng.github.io/git/hide.png">
 <meta property="og:updated_time" content="2018-10-22T07:38:26.651Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Git Bash使用">
 <meta name="twitter:description" content="Git 与 SVN 区别">
-<meta name="twitter:image" content="https://weixiaorensheng.github.io/git/2018/10/19/git/init.png">
+<meta name="twitter:image" content="https://weixiaorensheng.github.io/git/init.png">
 
 
 
@@ -515,9 +515,9 @@
 <p><blockquote class="default">SVN是集中式的版本控制系统，而Git是分布式版本控制系统。</blockquote><br>&emsp;&emsp;先说集中式版本控制系统，版本库是集中存放在中央服务器的，而干活的时候，用的都是自己的电脑，所以要先从中央服务器取得最新的版本，然后开始干活，干完活了，再把自己的活推送给中央服务器。中央服务器就好比是一个图书馆，你要改一本书，必须先从图书馆借出来，然后回到家自己改，改完了，再放回图书馆。<br>&emsp;&emsp;分布式版本控制系统根本没有“中央服务器”，每个人的电脑上都是一个完整的版本库，这样，你工作的时候，就不需要联网了，因为版本库就在你自己的电脑上。既然每个人电脑上都有一个完整的版本库，那多个人如何协作呢？比方说你在自己电脑上改了文件A，你的同事也在他的电脑上改了文件A，这时，你们俩之间只需把各自的修改推送给对方，就可以互相看到对方的修改了。<br>&emsp;&emsp;和集中式版本控制系统相比，分布式版本控制系统的安全性要高很多，因为每个人电脑里都有完整的版本库，某一个人的电脑坏掉了不要紧，随便从其他人那里复制一个就可以了。而集中式版本控制系统的中央服务器要是出了问题，所有人都没法干活了。</p>
 <h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p><a href="https://git-scm.com/download/win" target="_blank" rel="noopener">下载地址</a><a href="https://git-scm.com/download/win" target="_blank" rel="noopener">https://git-scm.com/download/win</a><br>安装完成后，在开始菜单里找到“Git”-&gt;“Git Bash”,出现类似命令行的窗口，说明安装成功。<br>安装完成后，还需要最后一步设置，在命令行输入：<br><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git<span class="built_in"> config </span>--global user.name <span class="string">"Your Name"</span></span><br><span class="line">$ git<span class="built_in"> config </span>--global user.email <span class="string">"email@example.com"</span></span><br></pre></td></tr></table></figure></p>
 <div class="note info"><p>提示：git config  –global 参数，有了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然你也可以对某个仓库指定的不同的用户名和邮箱。<br></p></div>
-<h2 id="创建版本库"><a href="#创建版本库" class="headerlink" title="创建版本库"></a>创建版本库</h2><div class="note info"><p>什么是版本库？版本库又名仓库，英文名repository,你可以简单的理解一个目录，这个目录里面的所有文件都可以被Git管理起来，每个文件的修改，删除，Git都能跟踪，以便任何时刻都可以追踪历史，或者在将来某个时刻还可以将文件”还原”。<br></p></div><br><span id="inline-toc">1.</span>选择一个合适的地方，创建一个空目录<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> mkdir testgit</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> <span class="built_in">cd</span> testgit</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> <span class="built_in">pwd</span></span></span><br></pre></td></tr></table></figure><br><br><blockquote class="default"><code>pwd</code>命令用于显示当前目录。</blockquote><br><span id="inline-toc">2.</span>通过命令 <code>git init</code> 把这个目录变成git可以管理的仓库<br><br><img src="/git/2018/10/19/git/init.png" title="[git init]"><br><div class="note warning"><p>为了避免遇到各种莫名其妙的问题，请确保目录名（包括父目录）不包含中文。<br></p></div>
+<h2 id="创建版本库"><a href="#创建版本库" class="headerlink" title="创建版本库"></a>创建版本库</h2><div class="note info"><p>什么是版本库？版本库又名仓库，英文名repository,你可以简单的理解一个目录，这个目录里面的所有文件都可以被Git管理起来，每个文件的修改，删除，Git都能跟踪，以便任何时刻都可以追踪历史，或者在将来某个时刻还可以将文件”还原”。<br></p></div><br><span id="inline-toc">1.</span>选择一个合适的地方，创建一个空目录<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> mkdir testgit</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> <span class="built_in">cd</span> testgit</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> <span class="built_in">pwd</span></span></span><br></pre></td></tr></table></figure><br><br><blockquote class="default"><code>pwd</code>命令用于显示当前目录。</blockquote><br><span id="inline-toc">2.</span>通过命令 <code>git init</code> 把这个目录变成git可以管理的仓库<br><br><img src="/git/init.png" title="[git init]"><br><div class="note warning"><p>为了避免遇到各种莫名其妙的问题，请确保目录名（包括父目录）不包含中文。<br></p></div>
 
-<h2 id="git创建版本库时-没有在文件夹下自动生成-git文件夹"><a href="#git创建版本库时-没有在文件夹下自动生成-git文件夹" class="headerlink" title="git创建版本库时 没有在文件夹下自动生成.git文件夹"></a>git创建版本库时 没有在文件夹下自动生成.git文件夹</h2><div class="note info"><p>这时候你当前testgit目录下会多了一个.git的目录，这个目录是Git来跟踪管理版本的，没事千万不要手动乱改这个目录里面的文件，否则，会把git仓库给破坏了。但是.git文件夹默认为隐藏属性，因此需要通过设置系统属性，才能看到这个文件夹：具体方法不同版本操作系统设置不一。我的是win10系统，将 <strong>‘隐藏的项目’</strong> 勾选就好了<br></p></div><br><img src="/git/2018/10/19/git/hide.png" title="[显示隐藏文件]"><br><br><h2> 添加文件到版本库</h2><br>&emsp;&emsp;首先这里再明确一下，所有的版本控制系统，其实只能跟踪文本文件的改动，比如TXT文件，网页，所有的程序代码等等，Git也不例外。版本控制系统可以告诉你每次的改动，比如在第5行加了一个单词“Linux”，在第8行删了一个单词“Windows”。而图片、视频这些二进制文件，虽然也能由版本控制系统管理，但没法跟踪文件的变化，只能把二进制文件每次改动串起来，也就是只知道图片从100KB改成了120KB，但到底改了啥，版本控制系统不知道，也没法知道。<br><br><div class="note primary"><p>不幸的是，Microsoft的Word格式是二进制格式，因此，版本控制系统是没法跟踪Word文件的改动的，如果要真正使用版本控制系统，就要以纯文本方式编写文件。</p></div>
+<h2 id="git创建版本库时-没有在文件夹下自动生成-git文件夹"><a href="#git创建版本库时-没有在文件夹下自动生成-git文件夹" class="headerlink" title="git创建版本库时 没有在文件夹下自动生成.git文件夹"></a>git创建版本库时 没有在文件夹下自动生成.git文件夹</h2><div class="note info"><p>这时候你当前testgit目录下会多了一个.git的目录，这个目录是Git来跟踪管理版本的，没事千万不要手动乱改这个目录里面的文件，否则，会把git仓库给破坏了。但是.git文件夹默认为隐藏属性，因此需要通过设置系统属性，才能看到这个文件夹：具体方法不同版本操作系统设置不一。我的是win10系统，将 <strong>‘隐藏的项目’</strong> 勾选就好了<br></p></div><br><img src="/git/hide.png" title="[显示隐藏文件]"><br><br><h2> 添加文件到版本库</h2><br>&emsp;&emsp;首先这里再明确一下，所有的版本控制系统，其实只能跟踪文本文件的改动，比如TXT文件，网页，所有的程序代码等等，Git也不例外。版本控制系统可以告诉你每次的改动，比如在第5行加了一个单词“Linux”，在第8行删了一个单词“Windows”。而图片、视频这些二进制文件，虽然也能由版本控制系统管理，但没法跟踪文件的变化，只能把二进制文件每次改动串起来，也就是只知道图片从100KB改成了120KB，但到底改了啥，版本控制系统不知道，也没法知道。<br><br><div class="note primary"><p>不幸的是，Microsoft的Word格式是二进制格式，因此，版本控制系统是没法跟踪Word文件的改动的，如果要真正使用版本控制系统，就要以纯文本方式编写文件。</p></div>
 
 <p>在版本库testgit目录下新建一个记事本文件 test.txt 内容随意：11111111<br>第一步，用命令<code>git add</code>告诉Git，把文件添加到仓库：<br><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="keyword">add</span><span class="bash"> test.txt</span></span><br></pre></td></tr></table></figure></p>
 <p>没有任何提示，说明已经添加成功了。</p>
@@ -748,7 +748,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">12</span>
+                  <span class="site-state-item-count">13</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -770,7 +770,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">17</span>
+                  <span class="site-state-item-count">18</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -916,7 +916,7 @@ show_date_time();
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">11.7k</span>
+    <span title="Site words total count">12.4k</span>
   
 </div>
 
@@ -960,7 +960,7 @@ show_date_time();
 <div class="alipay-box">
   <div class="alipay-menu">
     <div class="alipay-hover">
-		<div class="alipay-description">来扫(cao)我啊</div>
+		<div class="alipay-description">支付宝扫一扫</div>
     </div>
   </div>
 </div>

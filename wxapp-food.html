@@ -114,18 +114,18 @@
 <meta property="og:site_name" content="HHN">
 <meta property="og:description" content="小程序页面开发">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://weixiaorensheng.github.io/小程序/2018/10/16/wxapp-food/home.png">
-<meta property="og:image" content="https://weixiaorensheng.github.io/小程序/2018/10/16/wxapp-food/dist.png">
-<meta property="og:image" content="https://weixiaorensheng.github.io/小程序/2018/10/16/wxapp-food/iconfont.png">
-<meta property="og:image" content="https://weixiaorensheng.github.io/小程序/2018/10/16/wxapp-food/ttf.png">
-<meta property="og:image" content="https://weixiaorensheng.github.io/小程序/2018/10/16/wxapp-food/addicon.png">
-<meta property="og:image" content="https://weixiaorensheng.github.io/小程序/2018/10/16/wxapp-food/addname.png">
-<meta property="og:image" content="https://weixiaorensheng.github.io/小程序/2018/10/16/wxapp-food/shangxian.png">
+<meta property="og:image" content="https://weixiaorensheng.github.io/wxapp-food/home.png">
+<meta property="og:image" content="https://weixiaorensheng.github.io/wxapp-food/dist.png">
+<meta property="og:image" content="https://weixiaorensheng.github.io/wxapp-food/iconfont.png">
+<meta property="og:image" content="https://weixiaorensheng.github.io/wxapp-food/ttf.png">
+<meta property="og:image" content="https://weixiaorensheng.github.io/wxapp-food/addicon.png">
+<meta property="og:image" content="https://weixiaorensheng.github.io/wxapp-food/addname.png">
+<meta property="og:image" content="https://weixiaorensheng.github.io/wxapp-food/shangxian.png">
 <meta property="og:updated_time" content="2018-10-21T12:58:37.526Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="微信小程序-食物营养成分查询的实现">
 <meta name="twitter:description" content="小程序页面开发">
-<meta name="twitter:image" content="https://weixiaorensheng.github.io/小程序/2018/10/16/wxapp-food/home.png">
+<meta name="twitter:image" content="https://weixiaorensheng.github.io/wxapp-food/home.png">
 
 
 
@@ -528,26 +528,26 @@
 <li>wxss ——— 类似CSS文件</li>
 </ul></div>
 <hr>
-<h1 id="2-开发"><a href="#2-开发" class="headerlink" title="2.开发"></a><span id="inline-toc">2.</span>开发</h1><h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><p>通过搜索食物名查询食物营养<br><img src="/小程序/2018/10/16/wxapp-food/home.png" title="[app首页]"></p>
+<h1 id="2-开发"><a href="#2-开发" class="headerlink" title="2.开发"></a><span id="inline-toc">2.</span>开发</h1><h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><p>通过搜索食物名查询食物营养<br><img src="/wxapp-food/home.png" title="[app首页]"></p>
 <h2 id="框架"><a href="#框架" class="headerlink" title="框架"></a>框架</h2><div class="note info"><h4 id="框架图标"><a href="#框架图标" class="headerlink" title="框架图标"></a><strong>框架图标</strong></h4><ul>
 <li>UI框架 ———— <a href="https://weapp.iviewui.com/docs/guide/start" target="_blank" rel="noopener">iView Weapp</a></li>
 <li>图标 ——— <a href="http://www.iconfont.cn/plus/collections/index" target="_blank" rel="noopener">阿里图标图iconfont</a></li>
 </ul></div>
-<div class="tabs" id=""><ul class="nav-tabs"><li class="tab active"><a href="#-1">iView</a></li><li class="tab"><a href="#-2">iconfont</a></li></ul><div class="tab-content"><div class="tab-pane active" id="-1"><p>到 <a href="https://github.com/TalkingData/iview-weapp" target="_blank" rel="noopener">GitHub</a> 下载 iView Weapp 的代码，将 <span class="label warning">dist</span> 目录拷贝到自己的项目中。<br><img src="/小程序/2018/10/16/wxapp-food/dist.png" title="[dist]"></p>
+<div class="tabs" id=""><ul class="nav-tabs"><li class="tab active"><a href="#-1">iView</a></li><li class="tab"><a href="#-2">iconfont</a></li></ul><div class="tab-content"><div class="tab-pane active" id="-1"><p>到 <a href="https://github.com/TalkingData/iview-weapp" target="_blank" rel="noopener">GitHub</a> 下载 iView Weapp 的代码，将 <span class="label warning">dist</span> 目录拷贝到自己的项目中。<br><img src="/wxapp-food/dist.png" title="[dist]"></p>
 </div><div class="tab-pane" id="-2"><p><a href="http://www.cnblogs.com/wesky/p/7593115.html" target="_blank" rel="noopener">在微信小程序中使用阿里图标</a></p>
-<p><blockquote class="default"> ①下载图标 </blockquote><br><img src="/小程序/2018/10/16/wxapp-food/iconfont.png" title="[下载图标]"></p>
+<p><blockquote class="default"> ①下载图标 </blockquote><br><img src="/wxapp-food/iconfont.png" title="[下载图标]"></p>
 <p><blockquote class="default"> ②转换iconfont.ttf文件 </blockquote></p>
-<p><div class="note info"><p>小程序的wxss文件的font-face的url不接受http地址作为参数,但可以接受base64,因此需将字体文件下载后,转换为base64。用网址<a href="https://transfonter.org/转换" target="_blank" rel="noopener">https://transfonter.org/转换</a></p></div><br><img src="/小程序/2018/10/16/wxapp-food/ttf.png" title="[转换ttf文件]"></p>
+<p><div class="note info"><p>小程序的wxss文件的font-face的url不接受http地址作为参数,但可以接受base64,因此需将字体文件下载后,转换为base64。用网址<a href="https://transfonter.org/转换" target="_blank" rel="noopener">https://transfonter.org/转换</a></p></div><br><img src="/wxapp-food/ttf.png" title="[转换ttf文件]"></p>
 <p><blockquote class="default"> ③将文件放进微信小程序</blockquote></p>
-<p><div class="note info"><p>复制iconfont.css中的代码，粘贴至小程序ivew 的dist目录中的icon的index.wxss dist/icon/index.wxss，这样就可以使用iview的方式使用阿里图标了</p></div><br><img src="/小程序/2018/10/16/wxapp-food/addicon.png" title="[添加图标]"></p>
+<p><div class="note info"><p>复制iconfont.css中的代码，粘贴至小程序ivew 的dist目录中的icon的index.wxss dist/icon/index.wxss，这样就可以使用iview的方式使用阿里图标了</p></div><br><img src="/wxapp-food/addicon.png" title="[添加图标]"></p>
 <p><blockquote class="default"> ④界面（wxml）中引用：</blockquote><br><code>&lt;i-icon class=&#39;wicon&#39; type=&quot;iconfont icon-nv&quot; size=&#39;24&#39;  color=&quot;white&quot; /&gt;</code></p>
 </div></div></div>
 <h2 id="项目结构"><a href="#项目结构" class="headerlink" title="项目结构"></a>项目结构</h2><p>项目主要分为首页(home)、搜索(search)、详情(entry)三个页面<br><div class="note info"><p>点击搜索按钮将home页面的input文本域的值跨页面传到search页面，在search判断搜索值是否为空，为空则弹出提示，不为空则直接搜索，并返回食物列表，然后点击进入食物营养成分的详情页面。</p></div></p>
 <h2 id="域名备案"><a href="#域名备案" class="headerlink" title="域名备案"></a>域名备案</h2><p>腾讯云申请云服务器和域名<br><div class="note info"><p>下载ssl证书<a href="https://cloud.tencent.com/document/product/400/8422" target="_blank" rel="noopener">教程</a></p></div></p>
 <h2 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h2><p>在小程序后台的设置-开发设置中绑定备案的域名</p>
-<img src="/小程序/2018/10/16/wxapp-food/addname.png" title="[绑定域名]">
+<img src="/wxapp-food/addname.png" title="[绑定域名]">
 <div class="note primary"><p>然后在开发工具中上传代码，上传后就是开发版本，将开发版本提交审核通过后就发布了线上版本，在微信中就可以搜索到开发版的小程序了。</p></div>
-<img src="/小程序/2018/10/16/wxapp-food/shangxian.png" title="[上线]">
+<img src="/wxapp-food/shangxian.png" title="[上线]">
 <hr>
 <blockquote class="blockquote-center"> <strong>后台开发</strong> </blockquote>
 
@@ -768,7 +768,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">12</span>
+                  <span class="site-state-item-count">13</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -790,7 +790,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">17</span>
+                  <span class="site-state-item-count">18</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -936,7 +936,7 @@ show_date_time();
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">11.7k</span>
+    <span title="Site words total count">12.4k</span>
   
 </div>
 
@@ -980,7 +980,7 @@ show_date_time();
 <div class="alipay-box">
   <div class="alipay-menu">
     <div class="alipay-hover">
-		<div class="alipay-description">来扫(cao)我啊</div>
+		<div class="alipay-description">支付宝扫一扫</div>
     </div>
   </div>
 </div>
